@@ -1,6 +1,7 @@
 import './globals.css'
 import {Mulish} from '@next/font/google'
 import Navbar from './Navbar'
+import Footer from './Footer'
 
 const mulish = Mulish({
   display: "swap",
@@ -23,6 +24,7 @@ export default function RootLayout({
       <body>
         <Navbar />
         {children}
+        <Footer />
       </body>
     </html>
   )

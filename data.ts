@@ -86,8 +86,8 @@ export const rooms = [
   {
     id: 6,
     title: "Open Plan Sea Facing Family Room",
-    in_season: 1600,
-    off_season: 1400,
+    in_season: 2000,
+    off_season: 1500,
     breakfast: true,
     description: "This sea-facing en-suite family room is the size of 2 standard rooms and has two full bathrooms (each with a separate bath and shower)",
     images: ["/images/family_room.jpg", "/images/double_room_2.jpg", "/images/twin_room_3.jpg", "/images/twin_room_4.jpg", "/images/sea_view_10.jpg", "/images/sea_view_8.jpg", "/images/sea_view_9.jpg"]

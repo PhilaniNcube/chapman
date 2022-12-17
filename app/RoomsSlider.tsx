@@ -29,21 +29,21 @@ const RoomsSlider = () => {
     }
   }
 
-  console.log(rooms)
+
 
   return (
     <div className="w-full py-20">
       <div className="max-w-7xl mx-auto">
         <div className="flex flex-col items-center">
           <h2
-            className={`${display.className} text-black text-3xl font-medium text-center`}
+            className={`${display.className} text-black text-lg lg:text-3xl font-medium text-center`}
           >
             Well Appointent, <br />
             Luxurious Rooms
           </h2>
-          <p className="mt-6 mb-4 text-center w-[50ch] px-6 text-slate-700 text-md">
+          <p className="mt-6 mb-4 text-center w-[50ch] px-6 text-slate-700 text-sm lg:text-md">
             Inspire your senses with the sounds and scents of the Indian Ocean
-            during your stay in one of The Chapman’s well-appointed rooms.
+            during your stay in one of The Chapman&apos;s well-appointed rooms.
           </p>
         </div>
         <div className="flex justify-center">
@@ -60,22 +60,22 @@ const RoomsSlider = () => {
                   alt={rooms[count].title}
                   className="w-full h-full object-cover aspect-video"
                 />
-                <div className="w-full p-8">
+                <div className="w-full p-4 lg:p-8">
                   <h3
-                    className={`${display.className} text-black font-bold text-3xl mb-4`}
+                    className={`${display.className} text-black font-bold text-xl lg:text-3xl mb-4`}
                   >
                     {rooms[count].title}
                   </h3>
-                  <p className="text-slate-700 text-md">
+                  <p className="text-slate-700 text-sm lg:text-md">
                     {rooms[count].description}
                   </p>
                   <div className="h-[1px] bg-slate-600 w-full my-3" />
 
                   <div className="w-full flex justify-between mb-8">
                     <div>
-                      <p className="uppercase text-slate-700">From</p>
+                      <p className="uppercase text-slate-700 text-lg">From</p>
                       <h5
-                        className={`${display.className} text-black text-3xl font-medium`}
+                        className={`${display.className} text-black text-xl lg:text-3xl font-medium`}
                       >
                         R {rooms[count].in_season}{" "}
                         <span className="text-slate-400">
@@ -83,7 +83,7 @@ const RoomsSlider = () => {
                         </span>
                       </h5>
                       <h5
-                        className={`${display.className} text-black text-3xl font-medium`}
+                        className={`${display.className} text-black text-xl lg:text-3xl font-medium`}
                       >
                         R {rooms[count].off_season}{" "}
                         <span className="text-slate-400">
@@ -95,7 +95,7 @@ const RoomsSlider = () => {
 
                   <Link
                     href="/accommodation"
-                    className="text-white text-xl bg-black uppercase px-8 py-2 mt-5"
+                    className="text-white text-sm lg:text-xl bg-black uppercase px-4 lg:px-8 py-2 mt-5"
                   >
                     Book Now
                   </Link>
@@ -104,7 +104,7 @@ const RoomsSlider = () => {
 
           </div>
         </div>
-        <div className="mt-8 flex justify-between">
+        <div className="mt-8 flex px-2 justify-between">
           <button
             onClick={prev}
             className="flex items-center space-x-3"
@@ -123,12 +123,12 @@ const RoomsSlider = () => {
                 d="M6.75 15.75L3 12m0 0l3.75-3.75M3 12h18"
               />
             </svg>
-            <p className="text-black text-lg uppercase">Prev</p>
+            <p className="text-black text-md lg:text-lg uppercase">Prev</p>
           </button>
 
           <Link
             href="/accommodation"
-            className="border border-black uppercase text-black text-xl px-8 py-3 text-center"
+            className="border border-black uppercase text-black text-lg lg:text-xl px-4 lg:px-8 py-3 text-center"
           >
             Browse Rooms
           </Link>
@@ -138,7 +138,7 @@ const RoomsSlider = () => {
             className="flex items-center space-x-3"
           >
             {" "}
-            <p className="text-black text-lg uppercase">Next</p>
+            <p className="text-black text-md lg:text-lg uppercase">Next</p>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"

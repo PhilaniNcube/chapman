@@ -1,3 +1,4 @@
+import AboutPortElizabeth from "./AboutPortElizabeth";
 import HistoryHero from "./HistoryHero";
 import HistorySectionOne from "./HistorySectionOne";
 import Location from "./Location";
@@ -9,6 +10,7 @@ const page = () => {
     <HistorySectionOne />
     <Location />
     <SeaViews />
+    <AboutPortElizabeth />
   </main>;
 };
 export default page;

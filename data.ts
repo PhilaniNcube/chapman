@@ -53,7 +53,7 @@ export const rooms = [
     in_season: 1200,
     off_season: 970,
     breakfast: true,
-    description: "This sea-facing en-suite room consists of two single beds (Twin)",
+    description: "This sea-facing en-suite room consists of two single beds (Twin) with a full private bathroom (with a separate bath and shower)",
     images: ["/images/twin_room_2.jpg", "/images/twin_room_1.jpg", "/images/twin_room_3.jpg", "/images/sea_view_10.jpg", "/images/sea_view_8.jpg", "/images/sea_view_9.jpg"]
   },
   {
@@ -91,5 +91,276 @@ export const rooms = [
     breakfast: true,
     description: "This sea-facing en-suite family room is the size of 2 standard rooms and has two full bathrooms (each with a separate bath and shower)",
     images: ["/images/family_room.jpg", "/images/double_room_2.jpg", "/images/twin_room_3.jpg", "/images/twin_room_4.jpg", "/images/sea_view_10.jpg", "/images/sea_view_8.jpg", "/images/sea_view_9.jpg"]
+  },
+]
+
+
+export const breakfastMenu = [
+  {
+    id: 1,
+    title: "Chapman Breakfast",
+    description: "2 Fried eggs, bacon, sausage, savoury mince, fried mushrooms and grilled tomato",
+    price: 70,
+  },
+  {
+    id: 2,
+    title: "Sunrise Breakfast",
+    description: "2 Fried eggs, bacon, grilled tomato, chips & a slice of toast",
+    price: 50
+  },
+  {
+    id: 3,
+    title: "Scrambled Eggs or Mince on Toast",
+    description: "Scrambled Eggs or Mince on Toast ",
+    price: 60
+  },
+  {
+    id: 4,
+    title: "Chapmans Benedict",
+    description: "Poached eggs and ham on an English muffin, topped with Hollandaise and served with oven-roasted baby tomatoes",
+    price: 75
+  },
+  {
+    id: 5,
+    title: "Salmon Scrambled Eggs",
+    description: "Soft scrambled eggs with salmon, cream cheese and capers, prepared on a croissant",
+    price: 75
+  },
+  {
+    id: 6,
+    title: "Chapman Omelette",
+    description: "3 Egg omelette with a spicy mince, potato, mushroom and peppers filling, topped with cheese and baked",
+    price: 70
+  },
+  {
+    id: 7,
+    title: "Health Breakfast",
+    description: "A medley of yoghurt, muesli, fruit salad and honey",
+    price: 65
+  },
+  {
+    id: 8,
+    title: "French Croissant & Berrie",
+    description: "Croissant (prepared in a French toast style) served with honey, berries and cream cheese – delicious!",
+    price: 75
+  },
+]
+
+
+export const lunchMenu = [
+  {
+    id: 1,
+    title: "Blackbeard’s Burger",
+    description: "Homemade beef patty or chicken breast fillet, topped with caramelized red onion and tomato salsa and served with salad or potato wedges",
+    price: 49,
+  },
+  {
+    id: 2,
+    title: "Sweet Chilli Chicken Wrap",
+    description: "Chicken, Cream Cheese, Sweet Chilli Sauce, Lettuce and Tomato; served with salad or potato wedges",
+    price: 49,
+  },
+  {
+    id: 3,
+    title: "Hake and Chips",
+    description: "Fried Hake served with salad or potato wedges",
+    price: 55,
+  },
+  {
+    id: 4,
+    title: "Thai Fish Cakes",
+    description: "Served with a mild green curry dressing and salad or potato wedges",
+    price: 55,
+  },
+  {
+    id: 5,
+    title: "Grilled Prawns",
+    description: "10 grilled prawns, served with salad, rice or potato wedges",
+    price: 79,
+  },
+
+]
+
+
+export const nibblesMenu = [
+  {
+    id: 1,
+    title: "Garlic Pizza Bread",
+    description: "Pizza bread, topped with freshly chopped garlic and herbs and baked in our wood-burning pizza oven",
+    price: 29,
+  },
+  {
+    id: 2,
+    title: "Herb Pizza Bread",
+    description: "Pizza bread, topped with herbs and baked in our wood-burning pizza oven",
+    price: 29,
+  },
+  {
+    id: 3,
+    title: "Garlic Pizza Bread with Cheese Topping",
+    description: "Pizza bread, topped with freshly chopped garlic, herbs and mozzarella cheese and baked in our wood-burning pizza oven",
+    price: 36,
+  },
+  {
+    id: 4,
+    title: "Herb Pizza Bread with Cheese Topping",
+    description: "Pizza bread, topped with herbs and mozzarella cheese and baked in our wood-burning pizza oven",
+    price: 36,
+  },
+  {
+    id: 5,
+    title: "Margherita Pizza",
+    description: "The captains pizza topped with a tomato and mozzarella cheese base, fresh herbs and slices of tomato and baked in our wood-burning pizza oven.",
+    price: 44,
+  },
+
+]
+
+
+export const startersMenu = [
+  {
+    id: 1,
+    title: "Blackbeards Calamari",
+    description: "Chef’s choice selection of calamari prepared according to your requirement; served with a choice of either rice or selected pasta",
+    price: 49,
+  },
+  {
+    id: 2,
+    title: "Shipwheel Salad",
+    description: "A variety of fresh salad and fruit in season",
+    price: 37,
+  },
+  {
+    id: 3,
+    title: "Avocado or Hawaiian Seafood Medley",
+    description: "Half an avocado or half a pineapple, served with a medley of Blackbeards treasures prepared in a seafood mayonnaise",
+    price: 49,
+  },
+  {
+    id: 4,
+    title: "Greek Salad",
+    description: "A variety of fresh salad prepared with feta cheese, olives and a red wine dressing",
+    price: 42,
+  },
+  {
+    id: 5,
+    title: "Mushroom Island",
+    description: "A whole black mushroom cooked in garlic butter, garnished with mussels and topped with a creamy white sauce",
+    price: 45,
+  },
+  {
+    id: 6,
+    title: "Seafarer’s Choice",
+    description: "Mussels and calamari cooked in either a tomato, white wine, green pepper, mushroom, onion and garlic sauce or cooked in a creamy fish chowder sauce; served with a choice of either rice or selected pasta",
+    price: 49,
+  },
+  {
+    id: 7,
+    title: "Musselled Smoked Salmon Salad",
+    description: "Thinly sliced smoked salmon prepared together with a variety of fresh salad and garnished with mussels; served together with black pepper",
+    price: 59,
+  },
+  {
+    id: 8,
+    title: "Escargot Provencal (Snails)",
+    description: "6 snails prepared in a creamy garlic and parsley sauce",
+    price: 47,
+  },
+  {
+    id: 9,
+    title: "Blackbeards Treasure Bake",
+    description: "Chef’s choice bake of selected seafoods prepared in a creamy white sauce, topped with cheese and baked",
+    price: 49,
+  },
+  {
+    id: 10,
+    title: "Mussels in Cream",
+    description: "Mussels cooked in a cream, white wine, onion, green pepper and garlic sauce and served with a choice of either rice or selected pasta",
+    price: 49,
+  },
+]
+
+
+export const vegetarianMenu = [
+  {
+  id: 1,
+  title: "Vegetarian Marseilles",
+  description: "Stir-fried vegetables, served on a bed of pasta and topped with a spinach and feta sauce; topped with mozzarella cheese and baked in our wood-burning pizza oven",
+  price: 69,
+},
+  {
+  id: 2,
+  title: "Pizza Vegetarian",
+  description: "Topped with a tomato and mozzarella cheese base, mushrooms, peppers, onions, asparagus and sliced tomatoes and baked in our wood-burning pizza oven",
+  price: 62,
+},
+]
+
+export const meatMenu = [
+  {
+    id: 1,
+    title: "Chicken Diavola",
+    description: "Choice cut of chicken, grilled in peri-peri and served with a separate bowl of rice.",
+    price: 69
+  },
+  {
+    id: 2,
+    title: "Blackbeards Fillet Steak",
+    description: "Choice fillet of beef, grilled according to your requirements and served with either vegetables in season or chip",
+    price: 89
+  },
+  {
+    id: 3,
+    title: "Pizza Pizzaiola",
+    description: "Topped with a tomato and mozzarella cheese base, mushrooms, peppers, onions, sliced tomatoes and chicken strips and baked in our wood-burning pizza oven.",
+    price: 69
+  },
+  {
+    id: 4,
+    title: "Blackbeards Pizzaiola (Cliffie’s Favourite)",
+    description: "Choice fillet of beef or cut of chicken, grilled and cooked in our famous marinada sauce together with vegetables in season, mushrooms, boiled potato and pasta.",
+    price: 119
+  },
+  {
+    id: 5,
+    title: "Prima Chicken Arrabiata",
+    description: "Small pieces of cubed chicken dipped in a light flour, pan fried, cooked with cream, white wine, mushrooms, masala spice and cheese and prepared on a bed of pasta.",
+    price: 79
+  },
+  {
+    id: 6,
+    title: "Blackbeards Fillet Steak Treasure Island",
+    description: "Choice fillet of beef, grilled, topped with a creamy shrimp, smoked mussel, green pepper, onion and mushroom sauce and garnished with mussels.",
+    price: 119
+  },
+  {
+    id: 7,
+    title: "Smuggler’s Schnitzel",
+    description: "Thin slices of fillet of chicken, dipped in a batter and fried; topped with a cheese sauce and garnished with mussels.",
+    price: 79
+  },
+  {
+    id: 8,
+    title: "Chicken Brodino",
+    description: "Choice cut of chicken, grilled, prepared with mussels and calamari and cooked in our famous marinada sauce; served in a special preparation dish with a choice of either rice or selected pasta.",
+    price: 119
+  },
+  {
+    id: 9,
+    title: "Picata Bella",
+    description: "Small pieces of fillet of beef dipped in a light flour, pan fried, cooked with cream, white wine, mushrooms and cheese and prepared on a bed of pasta.",
+    price: 89
+  },
+  {
+    id: 10,
+    title: "Blackbeards Fillet Steak Brodino",
+    description: "Choice fillet of beef, grilled, prepared with mussels and calamari and cooked in our famous marinada sauce; served in a special preparation dish with a choice of either rice or selected pasta.",
+    price: 139
+  },
+  {
+    id: 11,
+    title: "Blackbeards Fillet Steak Brodino",
+    description: "Choice fillet of beef, grilled, prepared with mussels and calamari and cooked in our famous marinada sauce; served in a special preparation dish with a choice of either rice or selected pasta.",
+    price: 139
   },
 ]

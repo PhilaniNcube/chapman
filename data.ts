@@ -102,49 +102,49 @@ export const breakfastMenu = [
     id: 1,
     title: "Chapman Breakfast",
     description: "2 Fried eggs, bacon, sausage, savoury mince, fried mushrooms and grilled tomato",
-    price: 70,
+    price: 80,
   },
   {
     id: 2,
     title: "Sunrise Breakfast",
     description: "2 Fried eggs, bacon, grilled tomato, chips & a slice of toast",
-    price: 50
+    price: 60
   },
   {
     id: 3,
-    title: "Scrambled Eggs or Mince on Toast",
+    title: "Scrambled Eggs and Mince on Toast",
     description: "Scrambled Eggs or Mince on Toast ",
-    price: 60
+    price: 70
   },
   {
     id: 4,
     title: "Chapmans Benedict",
     description: "Poached eggs and ham on an English muffin, topped with Hollandaise and served with oven-roasted baby tomatoes",
-    price: 75
+    price: 85
   },
   {
     id: 5,
     title: "Salmon Scrambled Eggs",
     description: "Soft scrambled eggs with salmon, cream cheese and capers, prepared on a croissant",
-    price: 75
+    price: 85
   },
   {
     id: 6,
     title: "Chapman Omelette",
     description: "3 Egg omelette with a spicy mince, potato, mushroom and peppers filling, topped with cheese and baked",
-    price: 70
+    price: 85
   },
   {
     id: 7,
     title: "Health Breakfast",
     description: "A medley of yoghurt, muesli, fruit salad and honey",
-    price: 65
+    price: 85
   },
   {
     id: 8,
-    title: "French Croissant & Berrie",
+    title: "French Croissant & Berries",
     description: "Croissant (prepared in a French toast style) served with honey, berries and cream cheese – delicious!",
-    price: 75
+    price: 85
   },
 ]
 

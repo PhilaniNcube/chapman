@@ -5,10 +5,10 @@ const HistoryHero = () => {
   return (
     <header className="h-screen relative isolate">
       <Image
-        src="/images/sea_view_3.jpg"
+        src="/images/aerial_1.jpg"
         quality={100}
-        width={4608}
-        height={2592}
+        width={4032}
+        height={3024}
         className="h-full w-full object-cover"
         alt="Background"
       />

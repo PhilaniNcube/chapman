@@ -5,9 +5,9 @@ const ConferencingHero = () => {
   return (
     <div className="h-screen relative isolate">
       <Image
-        src="/images/conference.jpg"
-        width={2000}
-        height={1333}
+        src="/images/auditorium_1.jpg"
+        width={1920}
+        height={1280}
         alt="Conference"
         className="w-full h-full object-cover"
       />

@@ -29,6 +29,7 @@ const page = () => {
           </div>
           <div>
             <h3 className="font-bold text-black">Email:</h3>
+            <h3 className="font-bold text-black"> chapmail@iafrica.com</h3>
             <h3 className="font-bold text-black"> info@chapman.co.za</h3>
           </div>
           <div>

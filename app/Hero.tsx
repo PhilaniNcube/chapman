@@ -43,13 +43,13 @@ const Hero = () => {
 
           <div className="w-full lg:w-1/2 py-3 flex justify-start space-x-4">
             <Link
-              href="/rooms"
+              href="/accommodation"
               className="bg-black text-white uppercase text-xs md:text-md lg:text-xl w-fit px-8 py-4 mt-5"
             >
               Browse Rooms
             </Link>
             <Link
-              href="/contact"
+              href="/contacts"
               className="border-2 border-black text-black uppercase text-xs md:text-md lg:text-xl w-fit px-8 py-4 mt-5"
             >
               Contact

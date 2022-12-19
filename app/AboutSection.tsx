@@ -17,7 +17,7 @@ const AboutSection = () => {
           <h2 className={`${display.className} text-black text-5xl text-center font-medium`}>Stay with us <br /> Bring the family!</h2>
           <p className="mt-6 text-slate-700 max-w-[60ch] font-medium text-center">Inspire your senses with the sounds and secrets of the Indian Ocean during your stay in one of The Chapman&apos;s well-aapointed rooms. Find out more about our rooms and what is on offer.</p>
 
-          <Link href="/rooms" className="border border-black mt-5 w-fit px-8 py-4 uppercase text-black font-medium">Explore Rooms</Link>
+          <Link href="/accommodation" className="border border-black mt-5 w-fit px-8 py-4 uppercase text-black font-medium">Explore Rooms</Link>
          </div>
       </div>
     </div>

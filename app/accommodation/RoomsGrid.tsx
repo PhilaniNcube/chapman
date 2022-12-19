@@ -16,6 +16,7 @@ const RoomsGrid = () => {
               alt={room.title}
               width={1280}
               height={900}
+              quality={100}
               className="w-full aspect-video object-cover rounded-xl"
             />
             <div className="w-full mt-4">

@@ -11,7 +11,7 @@ export const display = Playfair_Display({
 const AboutSection = () => {
   return <article className="relative isolate w-full py-20">
     <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2">
-      <Image src="/images/sea_view_2.jpg" width={4608} height={2592} className="w-full h-full hidden lg:flex aspect-square object-cover z-10" alt="View" />
+      <Image src="/images/sea_view_2.jpg" width={4608} height={2592} quality={75} className="w-full h-full hidden lg:flex aspect-square object-cover z-10" alt="View" />
       <div className="z-20 h-full flex flex-col justify-center items-start bg-transparent relative isolate w-full px-6 py-20">
          <div className="w-full bg-slate-100 shadow-xl h-full flex flex-col justify-center items-center px-4 py-10 lg:translate-x-[-200px]">
           <h2 className={`${display.className} text-black text-5xl text-center font-medium`}>Stay with us <br /> Bring the family!</h2>

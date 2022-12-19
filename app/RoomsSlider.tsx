@@ -58,6 +58,7 @@ const RoomsSlider = () => {
                   width={1920}
                   height={1280}
                   alt={rooms[count].title}
+                  quality={100}
                   className="w-full h-full object-cover aspect-video"
                 />
                 <div className="w-full p-4 lg:p-8">

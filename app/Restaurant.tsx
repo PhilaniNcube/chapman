@@ -14,7 +14,7 @@ const Restaurant = () => {
 
                   <Link href="/restaurant" className="border border-black text-black text-md lg:text-lg px-4 lg:px-8 py-3 mt-7 uppercase font-medium">Restaurant</Link>
                 </div>
-                <Image src="/images/benedict.jpg" width={1024} height={684} alt="Benedict" className="w-full aspect-video object-cover"  />
+                <Image src="/images/benedict.jpg" width={1024} height={684} quality={75} alt="Benedict" className="w-full aspect-video object-cover"  />
               </div>
            </div>
            ) ;

@@ -4,7 +4,7 @@ import { display } from "./AboutSection";
 
 const Conferencing = () => {
   return <article className="relative isolate my-20">
-    <Image src="/images/conference.jpg" alt="conference" width={2000} height={1333} className="w-full h-full object-cover aspect-square lg:aspect-[6/2]" />
+    <Image src="/images/conference.jpg" alt="conference" quality={75} width={2000} height={1333} className="w-full h-full object-cover aspect-square lg:aspect-[6/2]" />
     <div className="absolute inset-0 h-full">
       <div className="max-w-7xl mx-auto flex space-y-4 h-full items-center justify-start">
         <div className="bg-white/80 w-full md:w-3/4 lg:w-1/2 p-10">

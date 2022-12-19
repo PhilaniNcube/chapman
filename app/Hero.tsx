@@ -17,6 +17,7 @@ const Hero = () => {
           src="/images/pool_1.jpg"
           width={4608}
           height={2592}
+          priority
           alt="Pool"
           className="w-full h-full object-cover"
         />

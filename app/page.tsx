@@ -1,4 +1,3 @@
-import Image from 'next/image'
 import { Fragment } from 'react'
 import AboutSection from './AboutSection'
 import Conferencing from './Conferencing'

@@ -14,29 +14,29 @@ export const links = [
     text: "Accommodation",
     url: "/accommodation"
   },
+
   {
     id: 4,
     text: "Restaurant",
     url: "/restaurant"
   },
-
-]
-
-let remaining = [  {
-    id: 5,
-    text: "Rates and Specials",
-    url: "/rates_and_specials"
-  },
   {
+    id: 5,
+    text: "Conferencing",
+    url: "/conferencing"
+  },
+   {
     id: 6,
     text: "Attractions",
     url: "/attractions"
   },
-  {
+{
     id: 7,
     text: "Contacts",
     url: "/contacts"
-  },]
+  },
+]
+
 
 
 export const rooms = [
@@ -568,4 +568,39 @@ export const coffeeMenu = [
     title: "Lavazza Caffe Mocha",
     price: 20
   },
+]
+
+
+
+export const attractions = [
+  {
+    id: 1,
+    title: "Addo Elephant Park",
+   image: "/images/african_bush_elephants.jpg",
+   width: 1024,
+   height: 768
+  },
+  {
+    id: 2,
+    title: "Horse Memorial",
+   image: "/images/horse_memorial_2.jpg",
+    width: 640,
+   height: 480
+  },
+  {
+    id: 3,
+    title: "Humewood Beach",
+   image: "/images/humewood-beach.jpg",
+    width: 1280,
+   height: 960
+  },
+  {
+    id: 4,
+    title: "Kragga Kamma Game Reserve",
+   image: "/images/kragga_kamma.jpg",
+    width: 650,
+   height: 432
+  },
+
+
 ]

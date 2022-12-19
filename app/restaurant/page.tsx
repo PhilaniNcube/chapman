@@ -4,7 +4,6 @@ import RestaurantHero from "./RestaurantHero";
 const page = () => {
   return (
     <main>
-     hello
 
     </main>
   );

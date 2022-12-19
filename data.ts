@@ -364,3 +364,206 @@ export const meatMenu = [
     price: 139
   },
 ]
+
+
+export const seafood = [
+  {
+    id: 1,
+    title: "Mussels In Cream",
+    description: "Mussels cooked in a cream, white wine, onion, green pepper and garlic sauce; served with a choice of either rice or selected pasta",
+    price: 79,
+  },
+  {
+    id: 2,
+    title: "Trout Lady Bea",
+    description: "Choice trout, grilled and topped with a creamy shrimp, smoked mussel, green pepper,onion and mushroom sauce; served with vegetables in season or chips.",
+    price: 129,
+  },
+  {
+    id: 3,
+    title: "Mussels Cajun",
+    description: "Mussels cooked in either a spicy tomato, white wine, green pepper, mushroom, onion and garlic sauce or cooked in a spicy creamy fish chowder and masala sauce; served with a choice of either rice or selected pasta.",
+    price: 79,
+  },
+  {
+    id: 4,
+    title: "Trout Nelson",
+    description: "Choice trout, grilled, prepared with a creamy asparagus and mushroom sauce, topped with cheese and baked; served with vegetables in season or chips.",
+    price: 129,
+  },
+  {
+    id: 5,
+    title: "Pizza di Mare",
+    description: "Topped with a tomato and mozzarella cheese base, mushrooms, peppers, onions,sliced tomatoes, mussels, calamari and flaked fish and baked in our wood-burning pizza oven.",
+    price: 79,
+  },
+  {
+    id: 6,
+    title: "Linefish Chef’s Choice",
+    description: "A unique spicy preparation of a choice linefish fillet, prepared together with mussels and calamari and cooked in a creamy fish chowder and masala sauce; served in a special preparation dish with a choice of either rice or pasta",
+    price: 129,
+  },
+  {
+    id: 7,
+    title: "Calamari Fried or Grilled",
+    description: "Chef’s choice selection of calamari either dipped in a light flour, seasoned with spices and deep fried or grilled; served on a bed of rice together with lemons and tartare sauce",
+    price: 79,
+  },
+  {
+    id: 8,
+    title: "Merluza Blackbeards Thermidor",
+    description: "Choice merluza, grilled, prepared with a cream, mushroom and white wine sauce, topped with cheese and baked; served with vegetables in season or chips",
+    price: 89,
+  },
+  {
+    id: 9,
+    title: "Seafood Marseilles",
+    description: "Choice linefish, grilled, topped with a creamy spinach and feta cheese sauce,garnished with mussels and baked.",
+    price: 89,
+  },
+  {
+    id: 10,
+    title: "Cajun Seafarer’s Choice",
+    description: "Mussels and calamari cooked in either a spicy tomato, white wine, green pepper, mushroom,onion and garlic sauce or cooked in a spicy creamy fish chowder and masala sauce; served with a choice of either rice or selected pasta",
+    price: 95,
+  },
+  {
+    id: 11,
+    title: "Merluza Brodino",
+    description: "Choice merluza, prepared with mussels and calamari and cooked in our famous marinada sauce; served in a special preparation dish together with a separate bowl of rice or selected pasta.",
+    price: 119,
+  },
+  {
+    id: 12,
+    title: "Kingklip Thermidor",
+    description: "Choice kingklip, grilled, prepared with a cream, mushroom and white wine sauce, topped with cheese and baked; served with vegetables in season or chips.",
+    price: 119,
+  },
+]
+
+
+export const dessertMenu = [
+  {
+    id: 1,
+    title: "Ice cream & Hot Chocolate Sauce",
+    description: "Ice cream & Hot Chocolate Sauce",
+    price: 26,
+  },
+  {
+    id: 2,
+    title: "Chocolate Ice Cream",
+    description: "Chocolate Ice Cream",
+    price: 26,
+  },
+  {
+    id: 3,
+    title: "Fresh Fruit Salad and Ice Cream",
+    description: "Fresh Fruit Salad and Ice Cream",
+    price: 29,
+  },
+  {
+    id: 4,
+    title: "Crème Caramelle",
+    description: "Delicious custard dessert served with cream or ice cream",
+    price: 29,
+  },
+  {
+    id: 5,
+    title: "Chocolate Brownies",
+    description: "Brownie Squares made with real chocolate served warm with cream or ice cream",
+    price: 35,
+  },
+  {
+    id: 6,
+    title: "Italian Cassata",
+    description: "Home-made Italian Cassata with fruit & nuts",
+    price: 35,
+  },
+  {
+    id: 7,
+    title: "Chocolate Mousse",
+    description: "Light & Fluffy Mousse made with a dark Alpine Chocolate",
+    price: 35,
+  },
+  {
+    id: 8,
+    title: "Blackbeards Cheesecake",
+    description: "Selected homemade cheesecakes (Enquire as to the flavour of the day)",
+    price: 35,
+  },
+  {
+    id: 9,
+    title: "Malva Pudding",
+    description: "A warm sponge pudding drenched in a Butter & cream sauce",
+    price: 35,
+  },
+  {
+    id: 10,
+    title: "Pecan Nut Pie",
+    description: "A rich caramelized Pecan Nut filling baked in short crust pastry, served with cream or ice cream",
+    price: 35,
+  },
+  {
+    id: 11,
+    title: "Chapman’s Peak Parfait",
+    description: "A layered dessert consisting of a medley of fruits, ice cream, cream and mousse",
+    price: 39,
+  },
+  {
+    id: 12,
+    title: "Rum Bananas",
+    description: "Banana’s Flambed in a rum & honey-based syrup served with ice cream",
+    price: 45,
+  },
+  {
+    id: 13,
+    title: "Cheese Board Platter for one",
+    description: "Cheese Board Platter for one",
+    price: 55,
+  },
+  {
+    id: 14,
+    title: "Cheese Board Platter for two",
+    description: "Cheese Board Platter for two",
+    price: 75,
+  },
+]
+
+
+export const coffeeMenu = [
+  {
+    id: 1,
+    title: "Filter Coffee",
+    price: 12
+  },
+  {
+    id: 2,
+    title: "Lavazza Espresso",
+    price: 14
+  },
+  {
+    id: 3,
+    title: "Lavazza Macchiato",
+    price: 17
+  },
+  {
+    id: 4,
+    title: "Lavazza Americano",
+    price: 17
+  },
+  {
+    id: 5,
+    title: "Lavazza Cappuccino",
+    price: 18
+  },
+  {
+    id: 6,
+    title: "Lavazza Caffe Latte",
+    price: 18
+  },
+  {
+    id: 7,
+    title: "Lavazza Caffe Mocha",
+    price: 20
+  },
+]

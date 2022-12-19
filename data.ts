@@ -19,7 +19,10 @@ export const links = [
     text: "Restaurant",
     url: "/restaurant"
   },
-  {
+
+]
+
+let remaining = [  {
     id: 5,
     text: "Rates and Specials",
     url: "/rates_and_specials"
@@ -33,8 +36,7 @@ export const links = [
     id: 7,
     text: "Contacts",
     url: "/contacts"
-  },
-]
+  },]
 
 
 export const rooms = [

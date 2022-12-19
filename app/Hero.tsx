@@ -36,7 +36,7 @@ const Hero = () => {
           <p className="mt-8 text-md text-sm lg:text-lg text-slate-700 leading-7 max-w-[50ch] font-medium">
             Situated on Brookes Hill between King&#39;s Beach, the Blue Flag
             Humewood Beach and the world- renowned water sports mecca of Hobie
-            Beach, The Chapman offers the traveller a blend of well- appointed
+            Beach. The Chapman offers the traveller a blend of well- appointed
             accommodation and world-class cuisine in a setting reminiscent of
             lazy summer days of leisure.
           </p>

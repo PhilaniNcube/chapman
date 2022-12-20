@@ -1,0 +1,6 @@
+{
+  "databaseURL": "https://webdev-s-workspace-ao95lm.eu-west-1.xata.sh/db/Chapman",
+  "codegen": {
+    "output": "utils/xata.ts"
+  }
+}

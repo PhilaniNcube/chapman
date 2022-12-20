@@ -8,16 +8,16 @@ const Menu = () => {
       title: "Breakfast",
     },
     {
-      route: "/restaurant/starters",
-      title: "Starters",
-    },
-    {
-      route: "/restaurant/vegetarian",
-      title: "Vegetarian",
+      route: "/restaurant/lunch",
+      title: "Lunch",
     },
     {
       route: "/restaurant/dinner",
       title: "Dinner",
+    },
+    {
+      route: "/restaurant/specials",
+      title: "Specials",
     },
   ];
 

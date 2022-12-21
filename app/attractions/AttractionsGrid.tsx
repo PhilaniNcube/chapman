@@ -1,6 +1,4 @@
-/* eslint-disable @next/next/no-img-element */
 import Image from "next/image";
-
 import { XataClient } from "../../utils/xata";
 import { display } from "../AboutSection";
 
@@ -14,9 +12,7 @@ const loadData = async () => {
 }
 
 const AttractionsGrid = async () => {
-
-
-  const attractions = await loadData()
+  const attractions = await loadData();
 
   return (
     <div className="py-20 px-4 lg:px-0">
@@ -36,7 +32,7 @@ const AttractionsGrid = async () => {
               >
                 {item.title}
               </h2>
-              <p className="text-sm mt-3 text-slate-700 font-medium line-clamp-4">
+              <p className="text-sm mt-2 text-slate-700 font-medium line-clamp-4">
                 {item.description}
               </p>
             </div>

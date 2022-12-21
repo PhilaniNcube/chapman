@@ -23,6 +23,14 @@ const tables = [
       { name: "description", type: "string" },
     ],
   },
+  {
+    name: "attractions",
+    columns: [
+      { name: "title", type: "string" },
+      { name: "description", type: "string" },
+      { name: "image", type: "string" },
+    ],
+  },
 ] as const;
 
 export type SchemaTables = typeof tables;
@@ -34,9 +42,13 @@ export type MenuItemsRecord = MenuItems & XataRecord;
 export type Menus = InferredTypes["menus"];
 export type MenusRecord = Menus & XataRecord;
 
+export type Attractions = InferredTypes["attractions"];
+export type AttractionsRecord = Attractions & XataRecord;
+
 export type DatabaseSchema = {
   menu_items: MenuItemsRecord;
   menus: MenusRecord;
+  attractions: AttractionsRecord;
 };
 
 const DatabaseClient = buildClient();

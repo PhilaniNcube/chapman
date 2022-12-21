@@ -59,7 +59,7 @@ export default function Details() {
                   </h2>
                   <p className="text-2xl md:mt-0 mt-4 font-semibold leading-6 text-slate-800">
                     R1475
-                    <span className="font-normal text-base">/delegate*</span>
+                    <span className="font-normal text-base">/delegate</span>
                   </p>
                 </div>
                 <p className="md:w-80 text-base leading-6 mt-4 text-slate-600">
@@ -80,12 +80,13 @@ export default function Details() {
                   24hr Conference Package
                 </h2>
                 <p className="text-2xl md:mt-0 mt-4 font-semibold leading-6 text-slate-800">
-                  R1125<span className="font-normal text-base">/mo</span>
+                  R1125<span className="font-normal text-base">/delegate</span>
                 </p>
               </div>
               <p className="md:w-80 text-base leading-6 mt-4 text-slate-600">
                 This package includes eveything in the standard package in
-                addition to a Double Room (2 single beds) for one night plus dinner & breakfast.
+                addition to a Double Room (2 single beds) for one night plus
+                dinner & breakfast.
               </p>
             </div>
           </div>

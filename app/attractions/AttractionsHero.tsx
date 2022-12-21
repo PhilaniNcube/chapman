@@ -2,7 +2,7 @@ import { display } from "../AboutSection";
 
 const AttractionsHero = () => {
   return (
-    <header className="h-screen flex flex-col items-center justify-center text-center">
+    <header className="min-h-[60vh] pt-40 flex flex-col items-center justify-center text-center">
       <h1
         className={`${display.className} text-black text-2xl lg:text-5xl font-bold`}
       >

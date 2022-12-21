@@ -30,7 +30,7 @@ const page = async () => {
           Price Per Adult: R395
         </h2>
         <h2 className={`${display.className} text-2xl  text-center my-4`}>
-          Children 10 years &amp; Younger: R395
+          Children 10 years &amp; Younger: R275
         </h2>
 
         <div className="w-full p-6 lg:p-10 my-4 bg-slate-100 rounded">

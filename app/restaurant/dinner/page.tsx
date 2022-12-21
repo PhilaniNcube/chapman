@@ -387,7 +387,7 @@ const page = async () => {
               <h4
                 className={`${display.className} font-bold text-black text-xl`}
               >
-                R{item.price}
+               {item.price === 0 ? "SQ" : `R${item.price}`}
               </h4>
             </div>
           ))}

@@ -22,8 +22,8 @@ const ConferencingPackages = () => {
           </p>
         </div>
 
-        <div className="mt-6 grid gap-6 grid-cols-1 lg:grid-cols-2">
-          <div className="w-full">
+        <div className="mt-6 grid gap-6 grid-cols-1 lg:grid-cols-2 place-items-center">
+          <div className="w-full flex flex-col items-center">
             <h3 className="font-bold text-xl text-black">
               Full 24-hour Conference Delegate Package:
             </h3>
@@ -36,7 +36,7 @@ const ConferencingPackages = () => {
               <li>Complimentary notepads & pens.</li>
             </ul>
           </div>
-          <div className="w-full">
+          <div className="w-full flex flex-col items-center">
             <h3 className="font-bold text-xl text-black">
               Day Delegate Conference Package:
             </h3>
@@ -51,6 +51,10 @@ const ConferencingPackages = () => {
             </ul>
           </div>
         </div>
+
+
+
+
       </div>
     </div>
   );

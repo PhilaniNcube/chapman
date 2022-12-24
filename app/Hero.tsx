@@ -25,15 +25,15 @@ const Hero = () => {
       <div
         className={` absolute inset-0 flex items-center justify-start text-slate-800`}
       >
-        <div className="max-w-7xl px-4 bg-white/70 lg:bg-transparent py-10 flex flex-col translate-y-[100px] lg:translate-y-0 justify-center w-full items-start mx-auto">
+        <div className="max-w-7xl px-4 bg-white/70 lg:bg-transparent pt-36 flex flex-col translate-y-[100px] lg:translate-y-0 justify-center w-full items-start mx-auto">
           <h1
             className={`${display.className} text-2xl lg:text-6xl font-semibold text-black`}
           >
             Value for money
-            <br /> accommodation &amp; <br />
+            <br /> Accommodation &amp; <br />
             Conferencing
           </h1>
-          <p className="mt-8 text-md text-sm lg:text-lg text-slate-700 leading-7 max-w-[50ch] font-medium">
+          <p className="mt-8 md:text-md text-sm lg:text-lg text-slate-700 leading-7 max-w-[50ch] font-medium">
             Situated on Brookes Hill between King&#39;s Beach, the Blue Flag
             Humewood Beach and the world- renowned water sports mecca of Hobie
             Beach. The Chapman offers the traveller a blend of well- appointed

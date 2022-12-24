@@ -21,6 +21,10 @@ export default function Details() {
               cocktail party, wedding reception or important conference, we are
               committed to ensuring that your expectations are satisfied.
             </p>
+            <h3 className={`text-lg font-bold leading-5 mt-5 text-slate-800 ${display.className}`}>
+              The Chapman Hotel is a member of CSD National Treasury preferred
+              supplier list
+            </h3>
           </div>
           <div
             className="xl:w-1/2 lg:w-7/12 relative w-full lg:mt-0 mt-12 md:px-8"
@@ -32,7 +36,7 @@ export default function Details() {
             >
               <div className="md:flex items-center justify-between">
                 <h2
-                  className={`${display.className} text-2xl font-semibold leading-6 text-slate-800`}
+                  className={`${display.className} text-xl font-semibold leading-6 text-slate-800`}
                 >
                   Standard Conference Package
                 </h2>
@@ -53,9 +57,9 @@ export default function Details() {
               <div className="w-full p-8">
                 <div className="md:flex items-center justify-between">
                   <h2
-                    className={`${display.className} text-2xl font-semibold leading-6 text-slate-800`}
+                    className={`${display.className} text-xl font-semibold leading-6 text-slate-800`}
                   >
-                    24hr Conference Package
+                    24hr Single Delegate Conference Package
                   </h2>
                   <p className="text-2xl md:mt-0 mt-4 font-semibold leading-6 text-slate-800">
                     R1475
@@ -75,12 +79,12 @@ export default function Details() {
             >
               <div className="md:flex items-center justify-between">
                 <h2
-                  className={`${display.className} text-2xl font-semibold leading-6 text-slate-800`}
+                  className={`${display.className} text-xl font-semibold leading-6 text-slate-800`}
                 >
-                  24hr Conference Package
+                  24hr Sharing Delegate Conference <br/>Package
                 </h2>
                 <p className="text-2xl md:mt-0 mt-4 font-semibold leading-6 text-slate-800">
-                  R1125<span className="font-normal text-base">/delegate</span>
+                  R1125<span className="font-normal text-base">/day</span>
                 </p>
               </div>
               <p className="md:w-80 text-base leading-6 mt-4 text-slate-600">

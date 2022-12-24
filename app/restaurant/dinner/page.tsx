@@ -396,7 +396,7 @@ const page = async () => {
         <h1
           className={`${display.className} text-black text-2xl lg:text-4xl text-center my-6`}
         >
-          Kiddeis Menu
+          Kiddies Menu
         </h1>
         <div className="mt-4 grid grid-cols-1 lg:grid-cols-2 gap-4">
           {kiddies.map((item, i) => (

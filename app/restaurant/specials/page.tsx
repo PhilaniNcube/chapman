@@ -60,9 +60,9 @@ const page = async () => {
 
           <div className="grid grid-cols-1 md:grid-cols-2 items-center place-items-center">
             <p className="text-lg text-slate-800 py-3">
-              Sweet &amp; sour port sosaties
+              Sweet &amp; sour pork sosaties
             </p>
-            <p className="text-lg text-slate-800 py-3">Roasted chiken</p>
+            <p className="text-lg text-slate-800 py-3">Roasted chicken</p>
             <p className="text-lg text-slate-800 py-3">Boerewors</p>
             <p className="text-lg text-slate-800 py-3">
               Creamy mushroom potato bake

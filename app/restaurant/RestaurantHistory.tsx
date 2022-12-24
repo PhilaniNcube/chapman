@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { display } from "../AboutSection";
 
 
@@ -26,6 +27,18 @@ const RestaurantHistory = () => {
             also offers other extensive a-la-carte options, which include
             various meat, poultry, vegetarian and Italian dishes.
           </p>
+        </div>
+
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
+          <div className="w-full">
+            <Image src="/images/benedict.jpg" width={1024} height={682} alt="Benedict" className="w-full aspect-video object-cover" />
+          </div>
+          <div className="w-full">
+            <Image src="/images/croissant_&_berries.jpg" width={1024} height={682} alt="Croissant" className="w-full aspect-video object-cover" />
+          </div>
+          <div className="w-full">
+            <Image src="/images/fillet_steak.jpg" width={1024} height={682} alt="Steak" className="w-full aspect-video object-cover" />
+          </div>
         </div>
 
       </div>

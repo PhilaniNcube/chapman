@@ -1,6 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@analytics/google-tag-manager': ^0.5.3
   '@headlessui/react': ^1.7.6
   '@heroicons/react': ^2.0.13
   '@next/font': ^13.0.6
@@ -9,6 +10,7 @@ specifiers:
   '@types/react': 18.0.26
   '@types/react-dom': 18.0.9
   '@xata.io/client': ^0.21.5
+  analytics: ^0.8.1
   autoprefixer: ^10.4.13
   eslint: 8.29.0
   eslint-config-next: 13.0.6
@@ -21,6 +23,7 @@ specifiers:
   typescript: 4.9.4
 
 dependencies:
+  '@analytics/google-tag-manager': 0.5.3
   '@headlessui/react': 1.7.6_biqbaboplfbrettd7655fr4n2y
   '@heroicons/react': 2.0.13_react@18.2.0
   '@next/font': 13.0.6
@@ -28,6 +31,7 @@ dependencies:
   '@types/react': 18.0.26
   '@types/react-dom': 18.0.9
   '@xata.io/client': 0.21.5_typescript@4.9.4
+  analytics: 0.8.1
   eslint: 8.29.0
   eslint-config-next: 13.0.6_ha6vam6werchizxrnqvarmz2zu
   framer-motion: 7.10.0_biqbaboplfbrettd7655fr4n2y
@@ -43,6 +47,58 @@ devDependencies:
   tailwindcss: 3.2.4_postcss@8.4.20
 
 packages:
+
+  /@analytics/cookie-utils/0.2.10:
+    resolution: {integrity: sha512-k7oyW1PkMCnEdCYmHCLLXAsKavQh5ZRh5EeugBEUTlPJs8x8ajF+W1T0PYVDS26Impkea1sJR2etv/6l2pKtlg==}
+    dependencies:
+      '@analytics/global-storage-utils': 0.1.5
+    dev: false
+
+  /@analytics/core/0.11.1:
+    resolution: {integrity: sha512-vHuiMpeGV6jGRRoOuScUJ4CHpVd1Zu9M+fjEWgN+boMAxIwFCtRTkSbhhIP337JuEBLpMT8w37OxA4Yh3NZFZw==}
+    dependencies:
+      '@analytics/global-storage-utils': 0.1.5
+      '@analytics/type-utils': 0.6.0
+      analytics-utils: 1.0.10
+    transitivePeerDependencies:
+      - '@types/dlv'
+    dev: false
+
+  /@analytics/global-storage-utils/0.1.5:
+    resolution: {integrity: sha512-DzOCd0qK7PGnz/dgBYNzLmaFBkxcEHM6/CpWMY7hel1IBUldMsyet4sdRgI2Nk+Wc6B/YvqVqos68p5ntB59zA==}
+    dependencies:
+      '@analytics/type-utils': 0.6.0
+    dev: false
+
+  /@analytics/google-tag-manager/0.5.3:
+    resolution: {integrity: sha512-hk9cQtccAA48y3yP7wZ7k0ugi7qqi4dGB/w8d+hXwnPbo52MNu07ZtclL94S4GCb2vfVPfUgGz8vpuYBUO1xZw==}
+    dev: false
+
+  /@analytics/localstorage-utils/0.1.8:
+    resolution: {integrity: sha512-tU5rLEHdYRc4EmRXkWacMJSmu4SeJfQuxvthSHHRVx3hGBQ00MJRDGyDHMXcrLKQXrBpsJo6t/8YRavHLOxDPQ==}
+    dependencies:
+      '@analytics/global-storage-utils': 0.1.5
+    dev: false
+
+  /@analytics/session-storage-utils/0.0.5:
+    resolution: {integrity: sha512-BXRNQ73GSkkkny//a/SNCYRyrIhEJBwOTcdNkr2gq6ghXgekQGrTfVzwybZ/tAEHA0XYkkaOszelRsDPxa+UOQ==}
+    dependencies:
+      '@analytics/global-storage-utils': 0.1.5
+    dev: false
+
+  /@analytics/storage-utils/0.4.0:
+    resolution: {integrity: sha512-RY9nhoSQcuQxkmVUZBG3ULOwiFxi+H5N0WHn+FPUScnoM4b+tC48dWzyFxD9qKyWPah8/ndjCj6r+6wTGSl1zw==}
+    dependencies:
+      '@analytics/cookie-utils': 0.2.10
+      '@analytics/global-storage-utils': 0.1.5
+      '@analytics/localstorage-utils': 0.1.8
+      '@analytics/session-storage-utils': 0.0.5
+      '@analytics/type-utils': 0.6.0
+    dev: false
+
+  /@analytics/type-utils/0.6.0:
+    resolution: {integrity: sha512-1Yw7u/COtxx06BfwlI+kVhsa/upKYzmCNrT4c8QDeCY2KMYlnijkUjtHiPU08HxyTIVB5j6d75O0YWVIHwQS8g==}
+    dev: false
 
   /@babel/runtime-corejs3/7.20.6:
     resolution: {integrity: sha512-tqeujPiuEfcH067mx+7otTQWROVMKHXEaOQcAeNV5dDdbPWvPcFA8/W9LXw2NfjNmOetqLl03dfnG2WALPlsRQ==}
@@ -497,6 +553,24 @@ packages:
       uri-js: 4.4.1
     dev: false
 
+  /analytics-utils/1.0.10:
+    resolution: {integrity: sha512-ZKYKhip7Sf09qE85l4vZMBPR3fz6ISUTlwzkWSwJHbzLLzP5qrWQtcQlBcP9Pah7BMNSq8pqho+PX4ZKB014Yg==}
+    peerDependencies:
+      '@types/dlv': ^1.0.0
+    dependencies:
+      '@analytics/type-utils': 0.6.0
+      dlv: 1.1.3
+    dev: false
+
+  /analytics/0.8.1:
+    resolution: {integrity: sha512-mXOe8zTGDfiYqw9MZsgul8HrOBmHsIwk/0xbrkGZr75yvWqAcyKfZA0WjOalwI9tzIKv8WNfHV5yhnrtQcXJpw==}
+    dependencies:
+      '@analytics/core': 0.11.1
+      '@analytics/storage-utils': 0.4.0
+    transitivePeerDependencies:
+      - '@types/dlv'
+    dev: false
+
   /ansi-regex/5.0.1:
     resolution: {integrity: sha512-quJQXlTSUGL2LH9SUXo8VwsY4soanhgo6LNSm84E1LBcE8s3O0wpdiRzyR9z/ZZJMlMWv37qOOb9pdJlMUEKFQ==}
     engines: {node: '>=8'}
@@ -808,7 +882,6 @@ packages:
 
   /dlv/1.1.3:
     resolution: {integrity: sha512-+HlytyjlPKnIG8XuRG8WvmBP8xs8P71y+SKKS6ZXWoEgLuePxtDoUEiH7WkdePWrQ5JBpE6aoVqfZfJUQkjXwA==}
-    dev: true
 
   /doctrine/2.1.0:
     resolution: {integrity: sha512-35mSku4ZXK0vfCuHEDAwt55dg2jNajHZ1odvF+8SSr82EsZY4QmXfuWso8oEd8zRhVObSN18aM0CjSdoBX7zIw==}

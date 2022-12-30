@@ -2,8 +2,12 @@ import { link } from "fs";
 import Image from "next/image";
 import Link from "next/link";
 import { links } from "../data";
+import analytics from "../utils/analytics";
 
 const Navbar = () => {
+
+    analytics.page();
+
   return <header className="px-4 absolute top-0 left-0 right-0 py-6 z-50">
     {/** Desktop Menu **/}
      <nav className="max-w-7xl mx-auto px-3 lg:px-8 shadow-lg py-2 bg-white flex items-center justify-between">

@@ -41,7 +41,7 @@ export default function Details() {
                   Standard Conference Package
                 </h2>
                 <p className="text-2xl md:mt-0 mt-4 font-semibold leading-6 text-slate-800">
-                  R425<span className="font-normal text-base">/delegate</span>
+                  R425<span className="font-normal text-sm">/delegate</span>
                 </p>
               </div>
               <p className="md:w-80 text-base leading-6 mt-4 text-slate-600">
@@ -59,11 +59,11 @@ export default function Details() {
                   <h2
                     className={`${display.className} text-xl font-semibold leading-6 text-slate-800`}
                   >
-                    24hr Single Delegate Conference Package
+                    24hr Single Delegate Conference <br />Package
                   </h2>
                   <p className="text-2xl md:mt-0 mt-4 font-semibold leading-6 text-slate-800">
                     R1475
-                    <span className="font-normal text-base">/delegate</span>
+                  <span className="font-normal text-sm">/delegate</span>
                   </p>
                 </div>
                 <p className="md:w-80 text-base leading-6 mt-4 text-slate-600">
@@ -84,7 +84,7 @@ export default function Details() {
                   24hr Sharing Delegate Conference <br/>Package
                 </h2>
                 <p className="text-2xl md:mt-0 mt-4 font-semibold leading-6 text-slate-800">
-                  R1125<span className="font-normal text-base">/day</span>
+                  R1125 <br/><span className="font-normal text-xs">/sharing delagate per day</span>
                 </p>
               </div>
               <p className="md:w-80 text-base leading-6 mt-4 text-slate-600">

@@ -37,14 +37,14 @@ const AboutPortElizabeth = () => {
           During the 19th century, Port Elizabeth grew rapidly. This was helped
           by the opening of the railway to Kimberley in 1873. Today, the city is
           home to one of South Africa&apos;s major universities, the Nelson
-          Mandela Metropolitan University, as well as being a major African port
+          Mandela University, as well as being a major African port
           and a manufacturing centre for automobiles.
         </p>
         <p className="text-slate-700 text-sm md:text-md">
           Also referred to as &apos;PE&apos;, &apos;The Friendly City&apos;,
           &apos;Madiba Bay&apos;, &apos;The Windy City&apos;, &apos;Die
           Baai&apos; (Afrikaans) and &apos;Ibhayi&apos; (isiXhosa), Port
-          Elizabeth forms part of the Nelson Mandela Metropolitan Municipality,
+          Elizabeth forms part of the Nelson Mandela Municipality,
           which includes Uitenhage, Despatch and Colchester (with a total
           population of approximately 1.5 million people).
         </p>
@@ -57,6 +57,9 @@ const AboutPortElizabeth = () => {
           with visitors being able to enjoy beautiful beaches like King&apos;s Beach,
           Hobie Beach and the Blue Flag Humewood Beach. Summers are warm with
           relatively low humidity, while winters are cool but mild.
+        </p>
+        <p className="text-slate-700 text-sm md:text-md">
+        Port Elizabeth is now called Gqeberha, it was officially renamed on the 23rd of February 2021. Gqeberha was the isiXhosa name for Walmer Township, one of the first and oldest Port Elizabeth townships, it was also the isiXhosa name for the Baakens River that flows right through the city.
         </p>
       </div>
     </section>

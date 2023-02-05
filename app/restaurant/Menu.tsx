@@ -11,13 +11,14 @@ const Menu = () => {
       route: "/restaurant/lunch",
       title: "Lunch",
     },
+
     {
       route: "/restaurant/dinner",
       title: "Dinner",
     },
     {
-      route: "/restaurant/specials",
-      title: "Specials",
+      route: "/restaurant/valentines",
+      title: "Valentines",
     },
   ];
 

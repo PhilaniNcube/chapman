@@ -17,8 +17,8 @@ const Menu = () => {
       title: "Dinner",
     },
     {
-      route: "/restaurant/valentines",
-      title: "Valentines",
+      route: "/restaurant/mothers-day",
+      title: "Mothers Day",
     },
   ];
 

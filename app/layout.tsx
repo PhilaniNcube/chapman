@@ -1,5 +1,5 @@
 import './globals.css'
-import {Mulish} from '@next/font/google'
+import {Mulish} from 'next/font/google'
 import Navbar from './Navbar'
 import Footer from './Footer'
 import Script from "next/script";

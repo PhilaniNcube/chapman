@@ -1,5 +1,5 @@
 import Image from "next/image";
-import {Playfair_Display} from "@next/font/google"
+import {Playfair_Display} from "next/font/google"
 import Link from "next/link";
 
 const display = Playfair_Display({

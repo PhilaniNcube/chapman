@@ -1,4 +1,4 @@
-import { Playfair_Display } from "@next/font/google";
+import { Playfair_Display } from "next/font/google";
 import Image from "next/image";
 import Link from "next/link";
 

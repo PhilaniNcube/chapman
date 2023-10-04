@@ -85,15 +85,15 @@ export const rooms = [
     description: "This sea-facing en-suite room consists of four single beds or one double bed and two single beds per room",
     images: ["/images/double_room_1.jpg", "/images/double_room_2.jpg", "/images/twin_room_3.jpg", "/images/twin_room_4.jpg", "/images/sea_view_10.jpg", "/images/sea_view_8.jpg", "/images/sea_view_9.jpg"]
   },
-  {
-    id: 6,
-    title: "Open Plan Sea Facing Family Room",
-    in_season: 2000,
-    off_season: 1500,
-    breakfast: true,
-    description: "This sea-facing en-suite family room consists of one double bed and three single beds per room",
-    images: ["/images/family_room.jpg", "/images/double_room_2.jpg", "/images/twin_room_3.jpg", "/images/twin_room_4.jpg", "/images/sea_view_10.jpg", "/images/sea_view_8.jpg", "/images/sea_view_9.jpg"]
-  },
+  // {
+  //   id: 6,
+  //   title: "Open Plan Sea Facing Family Room",
+  //   in_season: 2000,
+  //   off_season: 1500,
+  //   breakfast: true,
+  //   description: "This sea-facing en-suite family room consists of one double bed and three single beds per room",
+  //   images: ["/images/family_room.jpg", "/images/double_room_2.jpg", "/images/twin_room_3.jpg", "/images/twin_room_4.jpg", "/images/sea_view_10.jpg", "/images/sea_view_8.jpg", "/images/sea_view_9.jpg"]
+  // },
 ]
 
 

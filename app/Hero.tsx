@@ -24,7 +24,7 @@ const Hero = () => {
       </div>
       <div className="absolute inset-0 grid grid-cols-1 lg:grid-cols-2">
         <div className="h-[60vh] flex items-center justify-start px-10 lg:px-20 text-slate-800">
-          <div className=" px-4 bg-white/70 lg:bg-transparent lg:pt-36 flex py-10 flex-col translate-y-[70px] lg:translate-y-0 justify-center w-full items-start mx-auto">
+          <div className=" px-4 bg-white/70 lg:bg-transparent lg:pt-36 flex py-10 flex-col translate-y-[70px] lg:translate-y-[200px] justify-center w-full items-start mx-auto">
             <h1
               className={`${display.className} text-xl md:text-2xl lg:text-6xl font-semibold text-black`}
             >
@@ -40,16 +40,16 @@ const Hero = () => {
               lazy summer days of leisure.
             </p>
 
-            <div className="justify-start hidden w-full py-3 space-x-4 text-center lg:flex lg:w-1/2">
+            <div className="justify-start hidden w-full py-3 space-x-4 text-center lg:flex lg:w-2/3">
               <Link
                 href="/accommodation"
-                className="px-8 py-4 mt-5 text-xs text-white uppercase bg-black md:text-md lg:text-xl w-fit"
+                className="px-2 xl:px-8 py-4 mt-5 text-xs text-white uppercase bg-black md:text-md lg:text-md  "
               >
                 Browse Rooms
               </Link>
               <Link
                 href="/contacts"
-                className="px-8 py-4 mt-5 text-xs text-black uppercase border-2 border-black md:text-md lg:text-xl w-fit"
+                className="px-2 xl:px-8 py-4 mt-5 text-xs text-black uppercase border-2 border-black md:text-md lg:text-md "
               >
                 Contact
               </Link>

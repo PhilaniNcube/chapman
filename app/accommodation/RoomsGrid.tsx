@@ -29,13 +29,16 @@ const RoomsGrid = () => {
               <p className="text-lg text-slate-700 font-medium my-3">
                 {room.description}
               </p>
+              <p className="text-md my-3">
+                Full Chapman Breakfast @ R95 p/p
+              </p>
               <div className="w-full flex justify-between text-black bg-slate-200 py-2 px-3 rounded-lg shadow mb-6">
                 <div>
-                  <p className="text-md">In Season Price</p>
+                  <p className="text-md">Normal Price</p>
                   <p className="text-lg font-bold">R{room.in_season}/night</p>
                 </div>
                 <div>
-                  <p className="text-md">Off Season Price</p>
+                  <p className="text-md">Special Price</p>
                   <p className="text-lg font-bold">R{room.off_season}/night</p>
                 </div>
               </div>

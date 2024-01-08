@@ -38,12 +38,11 @@ const RoomsSlider = () => {
           <h2
             className={`${display.className} text-black text-lg lg:text-3xl font-medium text-center`}
           >
-            Well Appointent, <br />
-            Luxurious Rooms
+            Fun in the sun, <br />
+            Special Accommodation Package
           </h2>
-          <p className="mt-6 mb-4 text-center w-[50ch] px-6 text-slate-700 text-sm lg:text-md">
-            Inspire your senses with the sounds and scents of the Indian Ocean
-            during your stay in one of The Chapman&apos;s well-appointed rooms.
+          <p className="mt-6 mb-4 text-center w-[50ch] px-6 text-slate-50 text-lg lg:text-xl bg-rose-600">
+            From 07 January 2022 to 11 February 2024
           </p>
         </div>
         <div className="flex justify-center">

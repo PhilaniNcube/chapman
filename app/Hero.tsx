@@ -58,10 +58,10 @@ const Hero = () => {
         </div>
         <div className="w-full h-full bg-black">
           <Image
-            src="/images/specials.jpg"
-            width={900}
-            height={900}
-            alt="Specials"
+            src="/images/aerial_1.webp"
+            width={4032}
+            height={3024}
+            alt="Banner"
             className="object-cover w-full h-full"
           />
         </div>

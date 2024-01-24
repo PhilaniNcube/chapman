@@ -33,7 +33,7 @@ const RoomsSlider = () => {
 
   return (
     <div className="w-full py-20">
-      <div className="max-w-7xl mx-auto">
+      <div className="mx-auto max-w-7xl">
         <div className="flex flex-col items-center">
           <h2
             className={`${display.className} text-black text-lg lg:text-3xl font-medium text-center`}
@@ -41,8 +41,8 @@ const RoomsSlider = () => {
             Fun in the sun, <br />
             Special Accommodation Package
           </h2>
-          <p className="mt-6 mb-4 text-center w-[50ch] px-6 text-slate-50 text-lg lg:text-xl bg-rose-600">
-            From 07 January 2022 to 11 February 2024
+          <p className="mt-6 mb-4 text-center w-[50ch] px-6 text-slate-50 text-lg lg:text-2xl bg-rose-600">
+            From 07 January 2022 to 28 February 2024
           </p>
         </div>
         <div className="flex justify-center">
@@ -58,7 +58,7 @@ const RoomsSlider = () => {
                   height={1280}
                   alt={rooms[count].title}
                   quality={100}
-                  className="w-full h-full object-cover aspect-video"
+                  className="object-cover w-full h-full aspect-video"
                 />
                 <div className="w-full p-4 lg:p-8">
                   <h3
@@ -66,14 +66,14 @@ const RoomsSlider = () => {
                   >
                     {rooms[count].title}
                   </h3>
-                  <p className="text-slate-700 text-sm lg:text-md">
+                  <p className="text-sm text-slate-700 lg:text-md">
                     {rooms[count].description}
                   </p>
                   <div className="h-[1px] bg-slate-600 w-full my-3" />
 
-                  <div className="w-full flex justify-between mb-8">
+                  <div className="flex justify-between w-full mb-8">
                     <div>
-                      <p className="uppercase text-slate-700 text-lg">From</p>
+                      <p className="text-lg uppercase text-slate-700">From</p>
                       <h5
                         className={`${display.className} text-black text-xl lg:text-3xl font-medium`}
                       >
@@ -95,7 +95,7 @@ const RoomsSlider = () => {
 
                   <Link
                     href="/accommodation"
-                    className="text-white text-sm lg:text-xl bg-black uppercase px-4 lg:px-8 py-2 mt-5"
+                    className="px-4 py-2 mt-5 text-sm text-white uppercase bg-black lg:text-xl lg:px-8"
                   >
                     Book Now
                   </Link>
@@ -104,7 +104,7 @@ const RoomsSlider = () => {
 
           </div>
         </div>
-        <div className="mt-8 flex px-2 justify-between">
+        <div className="flex justify-between px-2 mt-8">
           <button
             onClick={prev}
             className="flex items-center space-x-3"
@@ -123,12 +123,12 @@ const RoomsSlider = () => {
                 d="M6.75 15.75L3 12m0 0l3.75-3.75M3 12h18"
               />
             </svg>
-            <p className="text-black text-md lg:text-lg uppercase">Prev</p>
+            <p className="text-black uppercase text-md lg:text-lg">Prev</p>
           </button>
 
           <Link
             href="/accommodation"
-            className="border border-black uppercase text-black text-lg lg:text-xl px-4 lg:px-8 py-3 text-center"
+            className="px-4 py-3 text-lg text-center text-black uppercase border border-black lg:text-xl lg:px-8"
           >
             Browse Rooms
           </Link>
@@ -138,7 +138,7 @@ const RoomsSlider = () => {
             className="flex items-center space-x-3"
           >
             {" "}
-            <p className="text-black text-md lg:text-lg uppercase">Next</p>
+            <p className="text-black uppercase text-md lg:text-lg">Next</p>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"

@@ -47,68 +47,68 @@ const RoomsSlider = () => {
         </div>
         <div className="flex justify-center">
           <div className="flex items-center overflow-hidden">
-
-              <div
-
-                className={`grid grid-cols-1 lg:grid-cols-2 h-full w-full mt-8`}
-              >
-                <Image
-                  src={rooms[count].images[0]}
-                  width={1920}
-                  height={1280}
-                  alt={rooms[count].title}
-                  quality={100}
-                  className="object-cover w-full h-full aspect-video"
-                />
-                <div className="w-full p-4 lg:p-8">
-                  <h3
-                    className={`${display.className} text-black font-bold text-xl lg:text-3xl mb-4`}
-                  >
-                    {rooms[count].title}
-                  </h3>
-                  <p className="text-sm text-slate-700 lg:text-md">
-                    {rooms[count].description}
-                  </p>
-                  <div className="h-[1px] bg-slate-600 w-full my-3" />
-
-                  <div className="flex justify-between w-full mb-8">
-                    <div>
-                      <p className="text-lg uppercase text-slate-700">From</p>
-                      <h5
-                        className={`${display.className} text-black text-xl lg:text-3xl font-medium`}
-                      >
-                        R {rooms[count].in_season}{" "}
-                        <span className="text-slate-400">
-                          / night (in season)
-                        </span>
-                      </h5>
-                      <h5
-                        className={`${display.className} text-black text-xl lg:text-3xl font-medium`}
-                      >
-                        R {rooms[count].off_season}{" "}
-                        <span className="text-slate-400">
-                          / night (off season)
-                        </span>
-                      </h5>
-                    </div>
+            <div
+              className={`grid grid-cols-1 lg:grid-cols-2 h-full w-full mt-8`}
+            >
+              <Image
+                src={rooms[count].images[0]}
+                width={1920}
+                height={1280}
+                alt={rooms[count].title}
+                quality={100}
+                className="object-cover w-full h-full aspect-video"
+              />
+              <div className="w-full p-4 lg:p-8">
+                <h3
+                  className={`${display.className} text-black font-bold text-xl lg:text-3xl mb-4`}
+                >
+                  {rooms[count].title}
+                </h3>
+                <p className="text-sm text-slate-700 lg:text-md">
+                  {rooms[count].description}
+                </p>
+                {rooms[count].breakfast === true ? (
+                  <div className="px-4 py-2 mt-4 font-bold text-center bg-sky-700 text-slate-50">
+                    <p>This room includes a complimentary breakfast!</p>
                   </div>
+                ) : null}
 
-                  <Link
-                    href="/accommodation"
-                    className="px-4 py-2 mt-5 text-sm text-white uppercase bg-black lg:text-xl lg:px-8"
-                  >
-                    Book Now
-                  </Link>
+                <div className="h-[1px] bg-slate-600 w-full my-3" />
+
+                <div className="flex justify-between w-full mb-8">
+                  <div>
+                    <p className="text-lg uppercase text-slate-700">From</p>
+                    <h5
+                      className={`${display.className} text-black text-xl lg:text-3xl font-medium`}
+                    >
+                      R {rooms[count].in_season}{" "}
+                      <span className="text-slate-400">
+                        / night (in season)
+                      </span>
+                    </h5>
+                    <h5
+                      className={`${display.className} text-black text-xl lg:text-3xl font-medium`}
+                    >
+                      R {rooms[count].off_season}{" "}
+                      <span className="text-slate-400">
+                        / night (off season)
+                      </span>
+                    </h5>
+                  </div>
                 </div>
-              </div>
 
+                <Link
+                  href="/accommodation"
+                  className="px-4 py-2 mt-5 text-sm text-white uppercase bg-black lg:text-xl lg:px-8"
+                >
+                  Book Now
+                </Link>
+              </div>
+            </div>
           </div>
         </div>
         <div className="flex justify-between px-2 mt-8">
-          <button
-            onClick={prev}
-            className="flex items-center space-x-3"
-          >
+          <button onClick={prev} className="flex items-center space-x-3">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -133,10 +133,7 @@ const RoomsSlider = () => {
             Browse Rooms
           </Link>
 
-          <button
-            onClick={next}
-            className="flex items-center space-x-3"
-          >
+          <button onClick={next} className="flex items-center space-x-3">
             {" "}
             <p className="text-black uppercase text-md lg:text-lg">Next</p>
             <svg

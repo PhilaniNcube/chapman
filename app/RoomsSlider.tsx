@@ -11,7 +11,7 @@ import { display } from "./AboutSection";
 
 const RoomsSlider = () => {
 
-  let [count, setCount] = useState(0)
+  const [count, setCount] = useState(0)
 
   const next = () => {
     if(count === rooms.length - 1) {
@@ -48,7 +48,7 @@ const RoomsSlider = () => {
         <div className="flex justify-center">
           <div className="flex items-center overflow-hidden">
             <div
-              className={`grid grid-cols-1 lg:grid-cols-2 h-full w-full mt-8`}
+              className="grid grid-cols-1 lg:grid-cols-2 h-full w-full mt-8"
             >
               <Image
                 src={rooms[count].images[0]}
@@ -108,7 +108,8 @@ const RoomsSlider = () => {
           </div>
         </div>
         <div className="flex justify-between px-2 mt-8">
-          <button onClick={prev} className="flex items-center space-x-3">
+          <button type="button" onClick={prev} className="flex items-center space-x-3">
+            {/* biome-ignore lint/a11y/noSvgWithoutTitle: <explanation> */}
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -133,10 +134,11 @@ const RoomsSlider = () => {
             Browse Rooms
           </Link>
 
-          <button onClick={next} className="flex items-center space-x-3">
+          <button type="button" onClick={next} className="flex items-center space-x-3">
             {" "}
             <p className="text-black uppercase text-md lg:text-lg">Next</p>
-            <svg
+            {/* biome-ignore lint/a11y/noSvgWithoutTitle: <explanation> */}
+             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
               viewBox="0 0 24 24"

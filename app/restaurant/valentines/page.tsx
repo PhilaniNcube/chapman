@@ -11,7 +11,7 @@ const page = async () => {
           Valentines Menu
         </h1>
 
-        <p className="text-xl text-center">Tuesday 14 February 2023</p>
+        <p className="text-xl text-center">Wednesday 14 February 2024</p>
         <p className="text-xl text-center">Time 17:00pm to 22:00pm</p>
 
         <hr className="my-6" />

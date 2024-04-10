@@ -3,16 +3,16 @@ import { display } from "../../AboutSection";
 
 const page = async () => {
   return (
-    <div className="my-6 px-4 lg:px-0">
-      <div className="max-w-7xl mx-auto">
+    <div className="px-4 my-6 lg:px-0">
+      <div className="mx-auto max-w-7xl">
         <h1
           className={`${display.className} text-2xl lg:text-4xl font-bold text-center my-4`}
         >
           Mothers Day Menu
         </h1>
 
-        <p className="text-xl text-center">Tuesday 14 May 2023</p>
-        <p className="text-xl text-center">Time: 12H30 for 13H00</p>
+        <p className="text-xl text-center">Sunday 12 May 2024</p>
+        {/* <p className="text-xl text-center">Time: 12H30 for 13H00</p> */}
 
         <hr className="my-6" />
 
@@ -21,25 +21,25 @@ const page = async () => {
           Chefs Plated Choice
         </h2>
         <h2 className={`${display.className} text-2xl  text-center my-4`}>
-          R30 per adult & R250 per child under 7
+          R350 per adult & R250 per child under 7
         </h2>
         <h2 className={`${display.className} text-2xl  text-center my-4`}>
           FOR RESERVATIONS: Tel: 0415840678 or email:chapmail@iafrica.com
         </h2>
 
-        <div className="w-full p-6 lg:p-10 my-4 bg-slate-100 rounded">
+        <div className="w-full p-6 my-4 rounded lg:p-10 bg-slate-100">
           <h2
             className={`${display.className} text-2xl  text-center my-4 font-bold uppercase`}
           >
             Starters
           </h2>
-          <p className="text-lg text-slate-800 py-3 text-center">
+          <p className="py-3 text-lg text-center text-slate-800">
             Homemade Bread Rolls served with choice of*
           </p>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div className="grid grid-cols-1 gap-8 md:grid-cols-2">
             <span className="flex flex-col items-start">
-              <p className="text-lg text-slate-800 py-3">Minestrone soup</p>
+              <p className="py-3 text-lg text-slate-800">Minestrone soup</p>
               <small className="text-xs max-w-[45ch]">
                 A thick soup of Italian origin containing assorted vegetables
                 ,beans, pasta & herbs & prepared in a divine whole peeled tomato
@@ -48,7 +48,7 @@ const page = async () => {
             </span>
 
             <span className="flex flex-col items-start">
-              <p className="text-lg text-slate-800 py-3">
+              <p className="py-3 text-lg text-slate-800">
                 Blackbeards Chef&apos;s Salad{" "}
               </p>
               <small className="text-xs max-w-[45ch]">
@@ -57,14 +57,14 @@ const page = async () => {
               </small>
             </span>
             {/* <span className="flex flex-col items-start">
-              <p className="text-lg text-slate-800 py-3">Smoked Salmon Salad</p>
+              <p className="py-3 text-lg text-slate-800">Smoked Salmon Salad</p>
               <small className="text-xs max-w-[45ch]">
                 Strips of smoked salmon served on a bed of green, cherry
                 tomatoes and English cucumber and sprinkled with lemon zest
               </small>
             </span> */}
             {/* <span className="flex flex-col items-start">
-              <p className="text-lg text-slate-800 py-3">
+              <p className="py-3 text-lg text-slate-800">
                 Blackbeard&apos;s Homemade Bread Platter
               </p>
               <small className="text-xs max-w-[45ch]">
@@ -75,33 +75,33 @@ const page = async () => {
           </div>
         </div>
 
-        <div className="w-full p-6 lg:p-10 my-20 bg-slate-100 rounded">
+        <div className="w-full p-6 my-20 rounded lg:p-10 bg-slate-100">
           <h2
             className={`${display.className} text-2xl  text-center my-4 font-bold uppercase`}
           >
             Main Course
           </h2>
-          <p className="text-lg text-slate-800  text-center font-bold">
+          <p className="text-lg font-bold text-center text-slate-800">
             All Meals Served With:
           </p>
-          <p className="text-md text-slate-800 pb-3 text-center">
+          <p className="pb-3 text-center text-md text-slate-800">
             Denise&apos;s grilled Vegetarian Marseilles Kebabs. Grilled
             Vegetable kebabs marinated in herbs & spices, topped with a spinach
             & feta sauce.
           </p>
-          <p className="text-md text-slate-800 pb-3 text-center">
+          <p className="pb-3 text-center text-md text-slate-800">
             Spanish Rice: Sauted rice, onion & bell peppers with tomato & herbs
           </p>
-          <p className="text-md text-slate-800 pb-3 text-center">
+          <p className="pb-3 text-center text-md text-slate-800">
             Roasted Potatoes, garlic and herbs
           </p>
-          <p className="text-lg font-bold text-slate-800 pt-3 text-center">
+          <p className="pt-3 text-lg font-bold text-center text-slate-800">
             Choice of*
           </p>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
             <span className="flex flex-col items-start">
-              <p className="text-lg text-slate-800 py-3">The Old Man Steak</p>
+              <p className="py-3 text-lg text-slate-800">The Old Man Steak</p>
               <small className="text-xs max-w-[45ch]">
                 Grilled Sirloin Topped with a Mustard ,Mushroom, Cream and
                 Brandy Sauce
@@ -109,7 +109,7 @@ const page = async () => {
             </span>
 
             <span className="flex flex-col items-start">
-              <p className="text-lg text-slate-800 py-3">
+              <p className="py-3 text-lg text-slate-800">
                 Blackbeards Flame Grilled Chicken Breasts
               </p>
               <small className="text-xs max-w-[45ch]">
@@ -118,7 +118,7 @@ const page = async () => {
             </span>
 
             <span className="flex flex-col items-start">
-              <p className="text-lg text-slate-800 py-3">Hake Brodino</p>
+              <p className="py-3 text-lg text-slate-800">Hake Brodino</p>
               <small className="text-xs max-w-[45ch]">
                 Hake, Calamari and Mussels cooked in a divine whole peeled
                 tomato marinada
@@ -126,7 +126,7 @@ const page = async () => {
             </span>
 
             {/* <span className="flex flex-col items-start">
-              <p className="text-lg text-slate-800 py-3">Cannelloni Italia</p>
+              <p className="py-3 text-lg text-slate-800">Cannelloni Italia</p>
               <small className="text-xs max-w-[45ch]">
                 Homemade mini cannelloni portions prepared with chicken ,
                 spinach and feta and topped with a whole peeled tomato marinara,
@@ -136,7 +136,7 @@ const page = async () => {
             </span> */}
 
             {/* <span className="flex flex-col items-start">
-              <p className="text-lg text-slate-800 py-3">
+              <p className="py-3 text-lg text-slate-800">
                 Butternut , Mushroom and Feta Bake
               </p>
               <small className="text-xs max-w-[45ch]">
@@ -147,16 +147,16 @@ const page = async () => {
           </div>
         </div>
 
-        <div className="w-full p-6 lg:p-10 my-4 bg-slate-100 rounded">
+        <div className="w-full p-6 my-4 rounded lg:p-10 bg-slate-100">
           <h2
             className={`${display.className} text-2xl  text-center my-4 font-bold uppercase`}
           >
             Dessert
           </h2>{" "}
-          <p className="text-lg font-bold text-slate-800 pt-3 text-center">
+          <p className="pt-3 text-lg font-bold text-center text-slate-800">
             Choice of*
           </p>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div className="grid grid-cols-1 gap-8 md:grid-cols-2">
             <span className="flex flex-col items-start">
               <p className="text-lg text-slate-800 py-3 max-w-[45ch]">
                 Chefs plated Parfait

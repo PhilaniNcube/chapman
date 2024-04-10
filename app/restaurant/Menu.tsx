@@ -17,15 +17,15 @@ const Menu = () => {
       title: "Dinner",
     },
     {
-      route: "/restaurant/valentines",
-      title: "Valentines",
+      route: "/restaurant/mothers-day",
+      title: "Mothers Day",
     },
   ];
 
   return <nav className="w-full px-4 lg:px-0">
-    <div className="max-w-7xl mx-auto flex flex-col lg:flex-row space-y-3 lg:space-y-0 justify-between border-b border-black">
+    <div className="flex flex-col justify-between mx-auto space-y-3 border-b border-black max-w-7xl lg:flex-row lg:space-y-0">
       {menuLinks.map((link, i) => (
-        <Link key={link.route} href={link.route} className="text-center py-3 text-black w-full uppercase text-xl" >{link.title}</Link>
+        <Link key={link.route} href={link.route} className="w-full py-3 text-xl text-center text-black uppercase" >{link.title}</Link>
       ))}
     </div>
   </nav>;

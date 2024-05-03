@@ -40,61 +40,142 @@ export const links = [
 
 
 export const rooms = [
-  {
-    id: 1,
-    title: "Standard Sea Facing Room",
-    in_season: 990,
-    off_season: 990,
-    breakfast: true,
-    description: "This sea-facing en-suite room consists of one bed with a full private bathroom (with a separate bath and shower)",
-    images: ["/images/double_room_1.jpg", "/images/double_room_4.jpg", "/images/sea_view_1.jpg", "/images/sea_view_3.jpg", "/images/sea_view_4.jpg", "/images/sea_view_5.jpg"]
-  },
-  {
-    id: 2,
-    title: "Standard Sea Facing Twin",
-    in_season: 1180,
-    off_season: 895,
-    breakfast: true,
-    description: "This sea-facing en-suite room consists of two single beds (Twin) with a full private bathroom (with a separate bath and shower)",
-    images: ["/images/twin_room_2.jpg", "/images/twin_room_1.jpg", "/images/twin_room_3.jpg", "/images/sea_view_10.jpg", "/images/sea_view_8.jpg", "/images/sea_view_9.jpg"]
-  },
-  {
-    id: 3,
-    title: "Standard Sea Facing Double",
-    in_season: 1180,
-    off_season: 895,
-    breakfast: true,
-    description: "This sea-facing en-suite room consists of one double bed per room with a full private bathroom (with a separate bath and shower)",
-    images: ["/images/double_room_6.jpg", "/images/double_room_7.jpg", "/images/double_room_8.jpg", "/images/sea_view_10.jpg", "/images/sea_view_8.jpg", "/images/sea_view_9.jpg"]
-  },
-  {
-    id: 4,
-    title: "Standard Sea Three Sleeper",
-    in_season: 1620,
-    off_season: 900,
-    breakfast: true,
-    description: "This sea-facing en-suite room consists of three single beds or one double and one single bed",
-    images: ["/images/double_room_1.jpg", "/images/double_room_2.jpg", "/images/double_room_3.jpg", "/images/sea_view_10.jpg", "/images/sea_view_8.jpg", "/images/sea_view_9.jpg"]
-  },
-  {
-    id: 5,
-    title: "Standard Sea Four Sleeper",
-    in_season: 1910,
-    off_season: 1000,
-    breakfast: true,
-    description: "This sea-facing en-suite room consists of four single beds or one double bed and two single beds per room",
-    images: ["/images/double_room_1.jpg", "/images/double_room_2.jpg", "/images/twin_room_3.jpg", "/images/twin_room_4.jpg", "/images/sea_view_10.jpg", "/images/sea_view_8.jpg", "/images/sea_view_9.jpg"]
-  },
-  // {
-  //   id: 6,
-  //   title: "Open Plan Sea Facing Family Room",
-  //   in_season: 2000,
-  //   off_season: 1500,
-  //   breakfast: true,
-  //   description: "This sea-facing en-suite family room consists of one double bed and three single beds per room",
-  //   images: ["/images/family_room.jpg", "/images/double_room_2.jpg", "/images/twin_room_3.jpg", "/images/twin_room_4.jpg", "/images/sea_view_10.jpg", "/images/sea_view_8.jpg", "/images/sea_view_9.jpg"]
-  // },
-]
+	{
+		id: 1,
+		title: "Standard Sea Facing Room",
+		in_season: 990,
+		off_season: 990,
+		special_rate: {
+			enabled: true,
+			title: "Nedbank Cup Special",
+			description: "Nedbank Cup Semifinal Orlando Pirates vs Chippa United",
+			rate_per_person: 990,
+			rate_per_room: 990,
+			capacity: 1,
+		},
+		breakfast: true,
+		description:
+			"This sea-facing en-suite room consists of one bed with a full private bathroom (with a separate bath and shower)",
+		images: [
+			"/images/double_room_1.jpg",
+			"/images/double_room_4.jpg",
+			"/images/sea_view_1.jpg",
+			"/images/sea_view_3.jpg",
+			"/images/sea_view_4.jpg",
+			"/images/sea_view_5.jpg",
+		],
+	},
+	{
+		id: 2,
+		title: "Standard Sea Facing Twin",
+		in_season: 1180,
+		off_season: 895,
+		special_rate: {
+			enabled: true,
+			title: "Nedbank Cup Special",
+			description: "Nedbank Cup Semifinal Orlando Pirates vs Chippa United",
+			rate_per_person: 590,
+			rate_per_room: 1180,
+			capacity: 2,
+		},
+		breakfast: true,
+		description:
+			"This sea-facing en-suite room consists of two single beds (Twin) with a full private bathroom (with a separate bath and shower)",
+		images: [
+			"/images/twin_room_2.jpg",
+			"/images/twin_room_1.jpg",
+			"/images/twin_room_3.jpg",
+			"/images/sea_view_10.jpg",
+			"/images/sea_view_8.jpg",
+			"/images/sea_view_9.jpg",
+		],
+	},
+	{
+		id: 3,
+		title: "Standard Sea Facing Double",
+		in_season: 1180,
+		off_season: 895,
+		special_rate: {
+			enabled: true,
+			title: "Nedbank Cup Special",
+			description: "Nedbank Cup Semifinal Orlando Pirates vs Chippa United",
+			rate_per_person: 590,
+			rate_per_room: 1180,
+			capacity: 2,
+		},
+		breakfast: true,
+		description:
+			"This sea-facing en-suite room consists of one double bed per room with a full private bathroom (with a separate bath and shower)",
+		images: [
+			"/images/double_room_6.jpg",
+			"/images/double_room_7.jpg",
+			"/images/double_room_8.jpg",
+			"/images/sea_view_10.jpg",
+			"/images/sea_view_8.jpg",
+			"/images/sea_view_9.jpg",
+		],
+	},
+	{
+		id: 4,
+		title: "Standard Sea Three Sleeper",
+		in_season: 1620,
+		off_season: 900,
+		special_rate: {
+			enabled: true,
+			title: "Nedbank Cup Special",
+			description: "Nedbank Cup Semifinal Orlando Pirates vs Chippa United",
+			rate_per_person: 480,
+			rate_per_room: 1440,
+			capacity: 3,
+		},
+		breakfast: true,
+		description:
+			"This sea-facing en-suite room consists of three single beds or one double and one single bed",
+		images: [
+			"/images/double_room_1.jpg",
+			"/images/double_room_2.jpg",
+			"/images/double_room_3.jpg",
+			"/images/sea_view_10.jpg",
+			"/images/sea_view_8.jpg",
+			"/images/sea_view_9.jpg",
+		],
+	},
+	{
+		id: 5,
+		title: "Standard Sea Four Sleeper",
+		in_season: 1910,
+		off_season: 1000,
+		special_rate: {
+			enabled: true,
+			title: "Nedbank Cup Special",
+			description: "Nedbank Cup Semifinal Orlando Pirates vs Chippa United",
+			rate_per_person: 380,
+			rate_per_room: 1520,
+			capacity: 4,
+		},
+		breakfast: true,
+		description:
+			"This sea-facing en-suite room consists of four single beds or one double bed and two single beds per room",
+		images: [
+			"/images/double_room_1.jpg",
+			"/images/double_room_2.jpg",
+			"/images/twin_room_3.jpg",
+			"/images/twin_room_4.jpg",
+			"/images/sea_view_10.jpg",
+			"/images/sea_view_8.jpg",
+			"/images/sea_view_9.jpg",
+		],
+	},
+	// {
+	//   id: 6,
+	//   title: "Open Plan Sea Facing Family Room",
+	//   in_season: 2000,
+	//   off_season: 1500,
+	//   breakfast: true,
+	//   description: "This sea-facing en-suite family room consists of one double bed and three single beds per room",
+	//   images: ["/images/family_room.jpg", "/images/double_room_2.jpg", "/images/twin_room_3.jpg", "/images/twin_room_4.jpg", "/images/sea_view_10.jpg", "/images/sea_view_8.jpg", "/images/sea_view_9.jpg"]
+	// },
+];
 
 
 

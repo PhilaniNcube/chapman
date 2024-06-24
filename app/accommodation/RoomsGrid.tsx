@@ -7,8 +7,8 @@ import { display } from "../AboutSection";
 
 const RoomsGrid = () => {
   return (
-    <article className="py-20 px-4 lg:px-0">
-      <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-6">
+    <article className="px-4 py-20 lg:px-0">
+      <div className="grid grid-cols-1 gap-6 mx-auto max-w-7xl md:grid-cols-2">
         {rooms.map((room) => (
           <section className="w-full" key={room.id}>
             <Image
@@ -17,7 +17,7 @@ const RoomsGrid = () => {
               width={1280}
               height={900}
               quality={100}
-              className="w-full aspect-video object-cover rounded-xl"
+              className="object-cover w-full aspect-video rounded-xl"
             />
             <div className="w-full mt-4">
               <h3
@@ -26,26 +26,26 @@ const RoomsGrid = () => {
                 {room.title}
               </h3>
 
-              <p className="text-lg text-slate-700 font-medium my-3">
+              <p className="my-3 text-lg font-medium text-slate-700">
                 {room.description}
               </p>
-              <p className="text-md my-3">
+              <p className="my-3 text-md">
                 Full Chapman Breakfast @ R95 p/p
               </p>
-              <div className="w-full flex justify-between text-black bg-slate-200 py-2 px-3 rounded-lg shadow mb-6">
+              <div className="flex justify-between w-full px-3 py-2 mb-6 text-black rounded-lg shadow bg-slate-200">
                 <div>
                   <p className="text-md">Normal Price</p>
                   <p className="text-lg font-bold">R{room.in_season}/night</p>
                 </div>
                 <div>
                   <p className="text-md">Special Price</p>
-                  <p className="text-lg font-bold">R{room.off_season}/night</p>
+                  <p className="text-lg font-bold">R{room.special_rate.rate_per_room}/night</p>
                 </div>
               </div>
 
               <Link
                 href="https://book.nightsbridge.com/15456"
-                className="bg-black text-white text-lg md:text-xl uppercase font-medium px-4 lg:px-8 py-3"
+                className="px-4 py-3 text-lg font-medium text-white uppercase bg-black md:text-xl lg:px-8"
               >
                 Book Now
               </Link>

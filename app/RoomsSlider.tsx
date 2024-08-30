@@ -41,9 +41,7 @@ const RoomsSlider = () => {
 							Fun in the sun, <br />
 							Special Accommodation Package
 						</h2>
-						<p className="mt-6 mb-4 text-center w-[50ch] px-6 text-slate-50 text-lg lg:text-2xl bg-rose-600">
-							From 07 January 2022 to 28 February 2024
-						</p>
+
 					</div>
 					<div className="flex justify-center">
 						<div className="flex items-center overflow-hidden">
@@ -74,7 +72,8 @@ const RoomsSlider = () => {
 									<div className="h-[1px] bg-slate-600 w-full my-3" />
 
 									<div className="flex justify-between w-full mb-8">
-										<div>
+                    <Image src="/images/chapman.png" alt="Pricing" width={600} height={253} className="object-cover w-full" />
+										{/* <div>
 											<p className="text-lg uppercase text-slate-700">From</p>
 											<h5
 												className={`${display.className} text-black text-xl lg:text-3xl font-medium`}
@@ -92,10 +91,10 @@ const RoomsSlider = () => {
 													/ night (off season)
 												</span>
 											</h5>
-										</div>
+										</div> */}
 									</div>
 
-									{rooms[count].special_rate.enabled === true ? (
+									{/* {rooms[count].special_rate.enabled === true ? (
 										<div className="px-4 py-2 my-4 font-bold text-center bg-green-700 text-slate-50">
 											<h3 className="text-2xl font-semibold">
 												{rooms[count].special_rate.title}
@@ -116,7 +115,7 @@ const RoomsSlider = () => {
 												{rooms[count].special_rate.rate_per_room} / night
 											</p>
 										</div>
-									) : null}
+									) : null} */}
 
 									<Link
 										href="/accommodation"

@@ -52,12 +52,14 @@ const page = async () => {
         >
           CHRISTMAS DAY LUNCH 2024
         </h1>
-        <button
-          onClick={readMenuAloud}
-          className="py-3 text-xl w-fit text-center text-white bg-black px-5 mx-auto uppercase"
-        >
-          Read Menu Aloud
-        </button>
+        <div className="flex w-full justify-center">
+          <button
+            onClick={readMenuAloud}
+            className="py-3 text-xl w-fit text-center text-white bg-black px-5 mx-auto uppercase"
+          >
+            Read Menu Aloud
+          </button>
+        </div>
 
         <p className="text-xl text-center">25 December 2024</p>
         <p className="text-xl text-center">First Sitting 12:00pm to 14:00pm</p>
@@ -133,12 +135,10 @@ const page = async () => {
             standard 10% service fee which will need to be paid on the day.
           </p>
           <h3>The Chapman Hotel & Conference Centre</h3>
-          <p>
-            Telephone: 041 5840678
-          </p>
-            <Link href="mailto:chapmail@iafrica.com">
-              Email: chapmail@iafrica.com
-            </Link>
+          <p>Telephone: 041 5840678</p>
+          <Link href="mailto:chapmail@iafrica.com">
+            Email: chapmail@iafrica.com
+          </Link>
         </div>
       </div>
     </div>

@@ -54,7 +54,7 @@ const page = async () => {
         </h1>
         <button
           onClick={readMenuAloud}
-          className="w-full py-3 text-xl text-center text-white bg-black px-5 uppercase"
+          className="py-3 text-xl w-fit text-center text-white bg-black px-5 uppercase"
         >
           Read Menu Aloud
         </button>

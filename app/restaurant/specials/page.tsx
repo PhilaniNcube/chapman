@@ -18,7 +18,7 @@ const page = async () => {
     Price Per Adult: R495.
     Children 10 years and Younger: R325.
     Starters.
-    Christmas day homemade bread table.
+    Christmas day homemade bread.
     Homemade Garlic and Feta Breads.
     Curry Noodle Salad.
     Greek Salad.

@@ -1,11 +1,46 @@
+"use client";
 
 import Link from "next/link";
-import { XataClient } from "../../../utils/xata";
 import { display } from "../../AboutSection";
 
 
 
 const page = async () => {
+
+  const readMenuAloud = () => {
+    const speech = new SpeechSynthesisUtterance();
+    speech.text = `
+    CHRISTMAS DAY LUNCH 2024.
+    25 December 2024.
+    First Sitting 12:00pm to 14:00pm.
+    Second Sitting 14:30pm to 16:30pm.
+    Booking Essential.
+    Price Per Adult: R495.
+    Children 10 years and Younger: R325.
+    Starters.
+    Christmas day homemade bread table.
+    Homemade Garlic and Feta Breads.
+    Curry Noodle Salad.
+    Greek Salad.
+    Deep fried hake nuggets.
+    Main Course.
+    Sweet and sour pork sosaties.
+    Roasted chicken.
+    Boerewors.
+    Seafood potato bake.
+    Variety of grilled vegetables.
+    Savoury Rice.
+    Desserts.
+    Cheese Cake.
+    Nougat ice-cream.
+    Please note: The prices above do not include a service gratuity.
+    Prepayment is a prerequisite. Kindly note that the above excludes a standard 10% service fee which will need to be paid on the day.
+    The Chapman Hotel and Conference Centre.
+  `;
+   speech.lang = "en-ZA";
+    window.speechSynthesis.speak(speech);
+  };
+
 
 
 
@@ -17,6 +52,12 @@ const page = async () => {
         >
           CHRISTMAS DAY LUNCH 2024
         </h1>
+        <button
+          onClick={readMenuAloud}
+          className="w-full py-3 text-xl text-center text-black uppercase"
+        >
+          Read Menu Aloud
+        </button>
 
         <p className="text-xl text-center">25 December 2024</p>
         <p className="text-xl text-center">First Sitting 12:00pm to 14:00pm</p>

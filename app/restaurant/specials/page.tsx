@@ -84,7 +84,7 @@ const page = async () => {
 
           <div className="grid items-center grid-cols-1 md:grid-cols-2 place-items-center">
             <p className="py-3 text-lg text-slate-800">
-              Christmas day homemade bread table
+              Christmas day homemade bread
             </p>
             <p className="py-3 text-lg text-slate-800">
               Homemade Garlic & Feta Breads

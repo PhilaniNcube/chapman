@@ -59,7 +59,7 @@ const page = async () => {
         <p className="text-xl text-center">
           First Sitting 11:45ampm to 13:45pm
         </p>
-        <p className="text-xl text-center">Second Sitting 14:15pm to 16:15pm</p>
+        <p className="text-xl text-center">Second Sitting 14:15pm to 16:30pm</p>
 
         <hr className="my-6" />
 

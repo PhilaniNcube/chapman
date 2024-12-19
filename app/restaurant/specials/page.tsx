@@ -70,7 +70,7 @@ const page = async () => {
           <h2
             className={`${display.className} text-2xl  text-center my-4 capitalize`}
           >
-            WIN A TWO NIGHT WEEKEND FOR TWO THE RAFFLE WILL TAKE PLACE AFTER
+            WIN A TWO NIGHT WEEKEND FOR TWO<br /> THE RAFFLE WILL TAKE PLACE AFTER
             LUNCH &amp; THE WINNER WILL BE NOTIFIED BY EMAIL
           </h2>
         </div>

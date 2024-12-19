@@ -3,10 +3,7 @@
 import Link from "next/link";
 import { display } from "../../AboutSection";
 
-
-
 const page = async () => {
-
   const readMenuAloud = () => {
     const speech = new SpeechSynthesisUtterance();
     speech.text = `
@@ -37,12 +34,9 @@ const page = async () => {
     Prepayment is a prerequisite. Kindly note that the above excludes a standard 10% service fee which will need to be paid on the day.
     The Chapman Hotel and Conference Centre.
   `;
-   speech.lang = "en-ZA";
+    speech.lang = "en-ZA";
     window.speechSynthesis.speak(speech);
   };
-
-
-
 
   return (
     <div className="px-4 my-6 lg:px-0">
@@ -62,8 +56,10 @@ const page = async () => {
         </div>
 
         <p className="text-xl text-center">25 December 2024</p>
-        <p className="text-xl text-center">First Sitting 12:00pm to 14:00pm</p>
-        <p className="text-xl text-center">Second Sitting 14:30pm to 16:30pm</p>
+        <p className="text-xl text-center">
+          First Sitting 11:45ampm to 13:45pm
+        </p>
+        <p className="text-xl text-center">Second Sitting 14:15pm to 16:15pm</p>
 
         <hr className="my-6" />
 
@@ -89,7 +85,7 @@ const page = async () => {
           Chritmas crackers included
         </h2>
         <h2 className={`${display.className} text-2xl  text-center my-4`}>
-        All meals are served platted from the buffet table
+          All meals are served platted from the buffet table
         </h2>
 
         <div className="w-full p-6 my-4 rounded lg:p-10 bg-slate-100">
@@ -101,7 +97,7 @@ const page = async () => {
 
           <div className="grid items-center grid-cols-1 md:grid-cols-2 place-items-center">
             <p className="py-3 text-lg text-slate-800">
-              Homemade garlic and feta bread
+              Homemade garlic and feta breads
             </p>
             <p className="py-3 text-lg text-slate-800">
               Homemade Garlic & Feta Breads
@@ -122,19 +118,17 @@ const page = async () => {
 
           <div className="grid items-center grid-cols-1 md:grid-cols-2 place-items-center">
             <p className="py-3 text-lg text-slate-800">
-             Roasted pork medallions served with cranberry or mint sauce
+              Roasted pork medallions served with apple sauce
             </p>
+            <p className="py-3 text-lg text-slate-800">Beef sosaties</p>
+
             <p className="py-3 text-lg text-slate-800">
-            Sweet and sour pork sosaties
+              Barbequed chicken
             </p>
+            <p className="py-3 text-lg text-slate-800">Grilled beef boerewors</p>
+            <p className="py-3 text-lg text-slate-800">Seafood bake</p>
             <p className="py-3 text-lg text-slate-800">
-           Barbacued beef sosaties
-            </p>
-            <p className="py-3 text-lg text-slate-800">Roasted hong kong chicken</p>
-            <p className="py-3 text-lg text-slate-800">Beef boerewors</p>
-            <p className="py-3 text-lg text-slate-800">Seafood potato bake</p>
-            <p className="py-3 text-lg text-slate-800">
-              Variety of grilled vegetables
+           Grilled vegetables
             </p>
             <p className="py-3 text-lg text-slate-800">Savoury rice</p>
             <p className="py-3 text-lg text-slate-800">Roasted baby potatoes</p>
@@ -150,7 +144,9 @@ const page = async () => {
           <div className="grid items-center grid-cols-1 md:grid-cols-2 place-items-center">
             <p className="py-3 text-lg text-slate-800">Cheese Cake</p>
             <p className="py-3 text-lg text-slate-800">Nougat ice-cream</p>
-            <p className="py-3 text-lg text-slate-800">Bottomless coffee or tea</p>
+            <p className="py-3 text-lg text-slate-800">
+              Bottomless coffee or tea
+            </p>
           </div>
           <p className="py-3 text-lg text-slate-800">
             Please note: The prices above do not include a service gratuity.

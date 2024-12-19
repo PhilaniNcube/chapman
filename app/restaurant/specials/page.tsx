@@ -7,32 +7,38 @@ const page = async () => {
   const readMenuAloud = () => {
     const speech = new SpeechSynthesisUtterance();
     speech.text = `
-    CHRISTMAS DAY LUNCH 2024.
-    25 December 2024.
-    First Sitting 12:00pm to 14:00pm.
-    Second Sitting 14:30pm to 16:30pm.
-    Booking Essential.
-    Price Per Adult: R495.
-    Children 10 years and Younger: R325.
-    Starters.
-    Christmas day homemade bread.
-    Homemade Garlic and Feta Breads.
-    Curry Noodle Salad.
-    Greek Salad.
-    Deep fried hake nuggets.
-    Main Course.
-    Sweet and sour pork sosaties.
-    Roasted chicken.
-    Boerewors.
-    Seafood potato bake.
-    Variety of grilled vegetables.
-    Savoury Rice.
-    Desserts.
-    Cheese Cake.
-    Nougat ice-cream.
-    Please note: The prices above do not include a service gratuity.
-    Prepayment is a prerequisite. Kindly note that the above excludes a standard 10% service fee which will need to be paid on the day.
-    The Chapman Hotel and Conference Centre.
+    CHRISTMAS DAY LUNCH
+    25 December 2024
+    First Sitting 11:45ampm to 13:45pm
+    Second Sitting 14:15pm to 16:30pm
+    Booking Essential
+    WIN A TWO NIGHT WEEKEND FOR TWO
+    THE RAFFLE WILL TAKE PLACE AFTER LUNCH & THE WINNER WILL BE NOTIFIED BY EMAIL
+    Price Per Adult: R495
+    Children 10 years & Younger: R325
+    Chritmas crackers included
+    All meals are served platted from the buffet table
+    Starters
+    Homemade garlic and feta breads
+    Curry Noodle Salad
+    Greek Salad
+    Deep fried hake nuggets served with lemon butter sauce.
+    Main Course
+    Roasted pork medallions served with apple sauce
+    Beef sosaties
+    Barbequed chicken
+    Grilled beef boerewors
+    Seafood bake
+    Grilled vegetables
+    Savoury rice
+    Roasted baby potatoes
+    Desserts
+    Cheese Cake
+    Nougat ice-cream
+    Bottomless coffee or tea
+    Please note: The prices above do not include a service gratuity. Prepayment is a prerequisite. Kindly note that the above excludes a standard 10% service fee which will need to be paid on the day.
+    The Chapman Hotel & Conference Centre
+    Telephone: 041 5840678
   `;
     speech.lang = "en-ZA";
     window.speechSynthesis.speak(speech);

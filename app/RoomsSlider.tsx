@@ -101,19 +101,14 @@ const RoomsSlider = () => {
                       {rooms[count].special_rate.description}
                     </p>
                     <p className="text-lg text-slate-100">
-                      Room sleeps {rooms[count].special_rate.capacity}{" "}
-                      {rooms[count].special_rate.capacity > 1
-                        ? "people"
-                        : "person"}
+                      {rooms[count].special_rate.capacity === 1 ? (`Single Room sleeps: 1 guest including breakfast`) : rooms[count].special_rate.capacity === 2 ? (`Double Room sleeps: 2 guests including breakfast`) : (`Family Room sleeps: ${rooms[count].special_rate.capacity} guests including breakfast`)}
                     </p>
                     <p className="mt-4">
-                      Special Rate Per Person : R{" "}
-                      {rooms[count].special_rate.rate_per_person} / night
+                      {rooms[count].special_rate.capacity === 1 ? (`Special Room Rate R${rooms[count].special_rate.rate_per_person} per night`) : rooms[count].special_rate.capacity === 2 ? (`Special Rate Per Room: R${rooms[count].special_rate.rate_per_person} (R${rooms[count].special_rate.rate_per_room}) per guest sharing per night`) :
+                      (`Special Rate Per Room: R${rooms[count].special_rate.rate_per_person} (R${rooms[count].special_rate.rate_per_room}) per guest sharing per night`)}
+
                     </p>
-                    <p className="mt-4">
-                      Special Rate Per Room : R{" "}
-                      {rooms[count].special_rate.rate_per_room} / night
-                    </p>
+
                     <p className="mt-8">
                       <Link
                         href="mailto:chapmail@iafrica.com"

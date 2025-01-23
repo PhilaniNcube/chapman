@@ -24,7 +24,7 @@ const menu = await loadMenu()
         <h1
           className={`${display.className} text-black text-2xl lg:text-4xl text-center my-6`}
         >
-          Lunch Menu
+          Lunch Menu 11:00 to 15:00
         </h1>
         <div className="grid grid-cols-1 gap-4 mt-4 lg:grid-cols-2">
           {menu.map((item, i) => (

@@ -121,20 +121,23 @@ const page = async () => {
   } = await loadMenu();
 
   return (
-    <div className="my-6 px-4 lg:px-0">
-      <div className="max-w-7xl mx-auto">
+    <div className="px-4 my-6 lg:px-0">
+      <div className="mx-auto max-w-7xl">
         <h1
           className={`${display.className} text-black text-2xl lg:text-4xl text-center my-6`}
         >
-          Starter
+          Dinner Menu 17:00 to 21:00
+        </h1>
+        <h1
+          className={`${display.className} text-black text-2xl lg:text-4xl text-center my-6`}
+        >
+          Starters
         </h1>
 
-        <p className="text-center max-w-[250px] mx-auto text-md text-slate-700 mt-3">
-          Our starter menu
-        </p>
-        <div className="mt-4 grid grid-cols-1 lg:grid-cols-2 gap-4 border-b-2 border-slate-300 mb-5">
+
+        <div className="grid grid-cols-1 gap-4 mt-4 mb-5 border-b-2 lg:grid-cols-2 border-slate-300">
           {starters.map((item, i) => (
-            <div className="w-full py-4 px-3" key={i}>
+            <div className="w-full px-3 py-4" key={i}>
               <h3 className="text-lg font-medium border-b border-dashed border-slate-700">
                 {item.title}
               </h3>
@@ -157,9 +160,9 @@ const page = async () => {
         <p className="text-center max-w-[250px] mx-auto text-md text-slate-700 mt-3">
           From our wood burning stove
         </p>
-        <div className="mt-4 grid grid-cols-1 lg:grid-cols-2 gap-4 border-b-2 border-slate-300 mb-5">
+        <div className="grid grid-cols-1 gap-4 mt-4 mb-5 border-b-2 lg:grid-cols-2 border-slate-300">
           {foccacia.map((item, i) => (
-            <div className="w-full py-4 px-3" key={i}>
+            <div className="w-full px-3 py-4" key={i}>
               <h3 className="text-lg font-medium border-b border-dashed border-slate-700">
                 {item.title}
               </h3>
@@ -180,9 +183,9 @@ const page = async () => {
         </h1>
 
         <p className="text-center max-w-[250px] mx-auto text-md text-slate-700 mt-3"></p>
-        <div className="mt-4 grid grid-cols-1 lg:grid-cols-2 gap-4 border-b-2 border-slate-300 mb-5">
+        <div className="grid grid-cols-1 gap-4 mt-4 mb-5 border-b-2 lg:grid-cols-2 border-slate-300">
           {salad.map((item, i) => (
-            <div className="w-full py-4 px-3" key={i}>
+            <div className="w-full px-3 py-4" key={i}>
               <h3 className="text-lg font-medium border-b border-dashed border-slate-700">
                 {item.title}
               </h3>
@@ -203,9 +206,9 @@ const page = async () => {
         </h1>
 
         <p className="text-center max-w-[250px] mx-auto text-md text-slate-700 mt-3"></p>
-        <div className="mt-4 grid grid-cols-1 lg:grid-cols-2 gap-4 border-b-2 border-slate-300 mb-5">
+        <div className="grid grid-cols-1 gap-4 mt-4 mb-5 border-b-2 lg:grid-cols-2 border-slate-300">
           {soup.map((item, i) => (
-            <div className="w-full py-4 px-3" key={i}>
+            <div className="w-full px-3 py-4" key={i}>
               <h3 className="text-lg font-medium border-b border-dashed border-slate-700">
                 {item.title}
               </h3>
@@ -226,9 +229,9 @@ const page = async () => {
         </h1>
 
         <p className="text-center max-w-[250px] mx-auto text-md text-slate-700 mt-3"></p>
-        <div className="mt-4 grid grid-cols-1 lg:grid-cols-2 gap-4 border-b-2 border-slate-300 mb-5">
+        <div className="grid grid-cols-1 gap-4 mt-4 mb-5 border-b-2 lg:grid-cols-2 border-slate-300">
           {vegetarian.map((item, i) => (
-            <div className="w-full py-4 px-3" key={i}>
+            <div className="w-full px-3 py-4" key={i}>
               <h3 className="text-lg font-medium border-b border-dashed border-slate-700">
                 {item.title}
               </h3>
@@ -251,9 +254,9 @@ const page = async () => {
         <p className="text-center max-w-[250px] mx-auto text-md text-slate-700 mt-3">
           Served with either spaghetti or tagliatelle
         </p>
-        <div className="mt-4 grid grid-cols-1 lg:grid-cols-2 gap-4 border-b-2 border-slate-300 mb-5">
+        <div className="grid grid-cols-1 gap-4 mt-4 mb-5 border-b-2 lg:grid-cols-2 border-slate-300">
           {pasta.map((item, i) => (
-            <div className="w-full py-4 px-3" key={i}>
+            <div className="w-full px-3 py-4" key={i}>
               <h3 className="text-lg font-medium border-b border-dashed border-slate-700">
                 {item.title}
               </h3>
@@ -277,9 +280,9 @@ const page = async () => {
           From our wood burning pizza oven (all the below tomato and mozzarella
           cheese)
         </p>
-        <div className="mt-4 grid grid-cols-1 lg:grid-cols-2 gap-4 border-b-2 border-slate-300 mb-5">
+        <div className="grid grid-cols-1 gap-4 mt-4 mb-5 border-b-2 lg:grid-cols-2 border-slate-300">
           {pizza.map((item, i) => (
-            <div className="w-full py-4 px-3" key={i}>
+            <div className="w-full px-3 py-4" key={i}>
               <h3 className="text-lg font-medium border-b border-dashed border-slate-700">
                 {item.title}
               </h3>
@@ -302,9 +305,9 @@ const page = async () => {
         <p className="text-center max-w-[250px] mx-auto text-md text-slate-700 mt-3">
           Served with a choice of rice or chips or salad
         </p>
-        <div className="mt-4 grid grid-cols-1 lg:grid-cols-2 gap-4 border-b-2 border-slate-300 mb-5">
+        <div className="grid grid-cols-1 gap-4 mt-4 mb-5 border-b-2 lg:grid-cols-2 border-slate-300">
           {combos.map((item, i) => (
-            <div className="w-full py-4 px-3" key={i}>
+            <div className="w-full px-3 py-4" key={i}>
               <h3 className="text-lg font-medium border-b border-dashed border-slate-700">
                 {item.title}
               </h3>
@@ -327,9 +330,9 @@ const page = async () => {
         <p className="text-center max-w-[250px] mx-auto text-md text-slate-700 mt-3">
           Served with a choice of vegetables in season or chips.
         </p>
-        <div className="mt-4 grid grid-cols-1 lg:grid-cols-2 gap-4 border-b-2 border-slate-300 mb-5">
+        <div className="grid grid-cols-1 gap-4 mt-4 mb-5 border-b-2 lg:grid-cols-2 border-slate-300">
           {grills.map((item, i) => (
-            <div className="w-full py-4 px-3" key={i}>
+            <div className="w-full px-3 py-4" key={i}>
               <h3 className="text-lg font-medium border-b border-dashed border-slate-700">
                 {item.title}
               </h3>
@@ -352,9 +355,9 @@ const page = async () => {
         <p className="text-center max-w-[250px] mx-auto text-md text-slate-700 mt-3">
           Served with a choice of vegetables in season or chips.
         </p>
-        <div className="mt-4 grid grid-cols-1 lg:grid-cols-2 gap-4 border-b-2 border-slate-300 mb-5">
+        <div className="grid grid-cols-1 gap-4 mt-4 mb-5 border-b-2 lg:grid-cols-2 border-slate-300">
           {poultry.map((item, i) => (
-            <div className="w-full py-4 px-3" key={i}>
+            <div className="w-full px-3 py-4" key={i}>
               <h3 className="text-lg font-medium border-b border-dashed border-slate-700">
                 {item.title}
               </h3>
@@ -377,9 +380,9 @@ const page = async () => {
         <p className="text-center max-w-[250px] mx-auto text-md text-slate-700 mt-3">
           Served with a choice of vegetables in season or chips.
         </p>
-        <div className="mt-4 grid grid-cols-1 lg:grid-cols-2 gap-4 border-b-2 border-slate-300 mb-5">
+        <div className="grid grid-cols-1 gap-4 mt-4 mb-5 border-b-2 lg:grid-cols-2 border-slate-300">
           {seafood.map((item, i) => (
-            <div className="w-full py-4 px-3" key={i}>
+            <div className="w-full px-3 py-4" key={i}>
               <h3 className="text-lg font-medium border-b border-dashed border-slate-700">
                 {item.title}
               </h3>
@@ -398,9 +401,9 @@ const page = async () => {
         >
           Kiddies Menu
         </h1>
-        <div className="mt-4 grid grid-cols-1 lg:grid-cols-2 gap-4">
+        <div className="grid grid-cols-1 gap-4 mt-4 lg:grid-cols-2">
           {kiddies.map((item, i) => (
-            <div className="w-full py-4 px-3" key={i}>
+            <div className="w-full px-3 py-4" key={i}>
               <h3 className="text-lg font-medium border-b border-dashed border-slate-700">
                 {item.title}
               </h3>
@@ -418,9 +421,9 @@ const page = async () => {
         >
           Dessert Menu
         </h1>
-        <div className="mt-4 grid grid-cols-1 lg:grid-cols-2 gap-4">
+        <div className="grid grid-cols-1 gap-4 mt-4 lg:grid-cols-2">
           {dessert.map((item, i) => (
-            <div className="w-full py-4 px-3" key={i}>
+            <div className="w-full px-3 py-4" key={i}>
               <h3 className="text-lg font-medium border-b border-dashed border-slate-700">
                 {item.title}
               </h3>

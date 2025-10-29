@@ -3,29 +3,28 @@
 import Link from "next/link";
 import { display } from "../../AboutSection";
 
-const page = async () => {
+const page = () => {
   const readMenuAloud = () => {
     const speech = new SpeechSynthesisUtterance();
     speech.text = `
-    CHRISTMAS DAY LUNCH
-    25 December 2024
-    First Sitting 11:45ampm to 13:45pm
-    Second Sitting 14:15pm to 16:30pm
-    Booking Essential
-    WIN A TWO NIGHT WEEKEND FOR TWO
-    THE RAFFLE WILL TAKE PLACE AFTER LUNCH & THE WINNER WILL BE NOTIFIED BY EMAIL
-    Price Per Adult: R495
-    Children 10 years & Younger: R325
-    Chritmas crackers included
-    All meals are served platted from the buffet table
+    THURSDAY 25 DECEMBER 2025 CHRISTMAS LUNCH MENU
+    First Sitting: 12:00 PM TO 14:00 PM
+    Second Sitting: 14:30 PM TO 16:30 PM
+    Bookings are essential and payments in advance
+    WIN TWO NIGHTS WEEKEND STAY FOR TWO PEOPLE
+    THE RAFFLE WILL TAKE PLACE AFTER LUNCH & THE WINNER WILL BE NOTIFIED BY TEL
+    Price Per Adult: R495 +10% Gratuity
+    Price Per Child 10 years & Younger: R350
+    Christmas crackers included
+    All meals are served plated from the buffet table
     Starters
-    Homemade garlic and feta breads
+    Homemade garlic & feta breads
     Curry Noodle Salad
     Greek Salad
-    Deep fried hake nuggets served with lemon butter sauce.
+    Deep fried hake nuggets served with lemon butter sauce
     Main Course
     Roasted pork medallions served with apple sauce
-    Beef sosaties
+    Beef soasties
     Barbequed chicken
     Grilled beef boerewors
     Seafood bake
@@ -34,11 +33,10 @@ const page = async () => {
     Roasted baby potatoes
     Desserts
     Cheese Cake
-    Nougat ice-cream
+    Nougat ice cream
     Bottomless coffee or tea
-    Please note: The prices above do not include a service gratuity. Prepayment is a prerequisite. Kindly note that the above excludes a standard 10% service fee which will need to be paid on the day.
-    The Chapman Hotel & Conference Centre
-    Telephone: 041 5840678
+    Season's Greetings
+    Telephone 041 584 0678 : chapmail@iafrica.com
   `;
     speech.lang = "en-ZA";
     window.speechSynthesis.speak(speech);
@@ -50,7 +48,7 @@ const page = async () => {
         <h1
           className={`${display.className} text-2xl lg:text-4xl font-bold text-center my-4`}
         >
-          CHRISTMAS DAY LUNCH 2024
+          THURSDAY 25 DECEMBER 2025 CHRISTMAS LUNCH MENU
         </h1>
         <div className="flex justify-center w-full">
           <button
@@ -61,37 +59,34 @@ const page = async () => {
           </button>
         </div>
 
-        <p className="text-xl text-center">25 December 2024</p>
-        <p className="text-xl text-center">
-          First Sitting 11:45ampm to 13:45pm
-        </p>
-        <p className="text-xl text-center">Second Sitting 14:15pm to 16:30pm</p>
+        <p className="text-xl font-bold text-center">FIRST SITTING: 12:00 PM TO 14:00 PM</p>
+        <p className="text-xl font-bold text-center">SECOND SITTING: 14:30 PM TO 16:30 PM</p>
 
         <hr className="my-6" />
 
         <h2 className={`${display.className} text-2xl  text-center my-4`}>
-          Booking Essential
+          BOOKINGS ARE ESSENTIAL & PAYMENTS IN ADVANCE
         </h2>
         <div className="max-w-2xl p-4 mx-auto text-white bg-green-700">
           <h2
             className={`${display.className} text-2xl  text-center my-4 capitalize`}
           >
-            WIN A TWO NIGHT WEEKEND FOR TWO<br /> THE RAFFLE WILL TAKE PLACE AFTER
-            LUNCH &amp; THE WINNER WILL BE NOTIFIED BY EMAIL
+            WIN TWO NIGHTS WEEKEND STAY FOR TWO PEOPLE<br /> THE RAFFLE WILL TAKE PLACE AFTER
+            LUNCH &amp; THE WINNER WILL BE NOTIFIED BY TEL
           </h2>
         </div>
 
         <h2 className={`${display.className} text-2xl  text-center my-4`}>
-          Price Per Adult: R495
+          PRICE PER ADULT: R495+10% GRATUITY
         </h2>
         <h2 className={`${display.className} text-2xl  text-center my-4`}>
-          Children 10 years &amp; Younger: R325
+          PRICE PER CHILD 10 YEARS &amp; YOUNGER: R350
         </h2>
         <h2 className={`${display.className} text-2xl  text-center my-4`}>
-          Chritmas crackers included
+          CHRISTMAS CRACKERS INCLUDED
         </h2>
         <h2 className={`${display.className} text-2xl  text-center my-4`}>
-          All meals are served platted from the buffet table
+          ALL MEALS ARE SERVED PLATED FROM THE BUFFET TABLE
         </h2>
 
         <div className="w-full p-6 my-4 rounded lg:p-10 bg-slate-100">
@@ -103,15 +98,12 @@ const page = async () => {
 
           <div className="grid items-center grid-cols-1 md:grid-cols-2 place-items-center">
             <p className="py-3 text-lg text-slate-800">
-              Homemade garlic and feta breads
+              HOMEMADE GARLIC & FETA BREADS
             </p>
+            <p className="py-3 text-lg text-slate-800">CURRY NOODLE SALAD</p>
+            <p className="py-3 text-lg text-slate-800">GREEK SALAD</p>
             <p className="py-3 text-lg text-slate-800">
-              Homemade Garlic & Feta Breads
-            </p>
-            <p className="py-3 text-lg text-slate-800">Curry Noodle Salad</p>
-            <p className="py-3 text-lg text-slate-800">Greek Salad</p>
-            <p className="py-3 text-lg text-slate-800">
-              Deep fried hake nuggets served with lemon butter sauce
+              DEEP FRIED HAKE NUGGETS SERVED WITH LEMON BUTTER SAUCE
             </p>
           </div>
         </div>
@@ -124,20 +116,19 @@ const page = async () => {
 
           <div className="grid items-center grid-cols-1 md:grid-cols-2 place-items-center">
             <p className="py-3 text-lg text-slate-800">
-              Roasted pork medallions served with apple sauce
+              ROASTED PORK MEDALLIONS SERVED WITH APPLE SAUCE
             </p>
-            <p className="py-3 text-lg text-slate-800">Beef sosaties</p>
-
+            <p className="py-3 text-lg text-slate-800">BEEF SOASTIES</p>
             <p className="py-3 text-lg text-slate-800">
-              Barbequed chicken
+              BARBEQUED CHICKEN
             </p>
-            <p className="py-3 text-lg text-slate-800">Grilled beef boerewors</p>
-            <p className="py-3 text-lg text-slate-800">Seafood bake</p>
+            <p className="py-3 text-lg text-slate-800">GRILLED BEEF BOEREWORS</p>
+            <p className="py-3 text-lg text-slate-800">SEAFOOD BAKE</p>
             <p className="py-3 text-lg text-slate-800">
-           Grilled vegetables
+              GRILLED VEGETABLES
             </p>
-            <p className="py-3 text-lg text-slate-800">Savoury rice</p>
-            <p className="py-3 text-lg text-slate-800">Roasted baby potatoes</p>
+            <p className="py-3 text-lg text-slate-800">SAVOURY RICE</p>
+            <p className="py-3 text-lg text-slate-800">ROASTED BABY POTATOES</p>
           </div>
         </div>
         <div className="w-full p-6 my-4 rounded lg:p-10 bg-slate-100">
@@ -148,21 +139,19 @@ const page = async () => {
           </h2>
 
           <div className="grid items-center grid-cols-1 md:grid-cols-2 place-items-center">
-            <p className="py-3 text-lg text-slate-800">Cheese Cake</p>
-            <p className="py-3 text-lg text-slate-800">Nougat ice-cream</p>
+            <p className="py-3 text-lg text-slate-800">CHEESE CAKE</p>
+            <p className="py-3 text-lg text-slate-800">NOUGAT ICE CREAM</p>
             <p className="py-3 text-lg text-slate-800">
-              Bottomless coffee or tea
+              BOTTOMLESS COFFEE OR TEA
             </p>
           </div>
-          <p className="py-3 text-lg text-slate-800">
-            Please note: The prices above do not include a service gratuity.
-            Prepayment is a prerequisite. Kindly note that the above excludes a
-            standard 10% service fee which will need to be paid on the day.
+          <p className="py-3 text-lg font-bold text-center text-slate-800">
+            SEASON&apos;S GREETINGS
           </p>
-          <h3>The Chapman Hotel & Conference Centre</h3>
-          <p>Telephone: 041 5840678</p>
-          <Link href="mailto:chapmail@iafrica.com">
-            Email: chapmail@iafrica.com
+          <h3 className="font-bold text-center">The Chapman Hotel & Conference Centre</h3>
+          <p className="text-center">TELEPHONE 041 584 0678</p>
+          <Link href="mailto:chapmail@iafrica.com" className="block text-center">
+            chapmail@iafrica.com
           </Link>
         </div>
       </div>

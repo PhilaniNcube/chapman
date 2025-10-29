@@ -4,6 +4,23 @@ import React, { Fragment, ReactNode } from "react";
 import { XataClient } from "../../utils/xata";
 import { display } from "../AboutSection";
 import AttractionsGrid from "./AttractionsGrid";
+import { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: "The Chapman Hotel - Explore the Attractions of Port Elizabeth, South Africa",
+  description: "Discover the many attractions of Port Elizabeth, South Africa when you stay at The Chapman Hotel. From stunning beaches to historical landmarks, there is something for everyone to enjoy.",
+  keywords: "attractions, hotel, Port Elizabeth, South Africa",
+  robots: "index,follow",
+  alternates: {
+    canonical: "https://www.chapman.co.za/attractions"
+  },
+  openGraph: {
+    title: "The Chapman Hotel - Explore the Attractions",
+    description: "Discover the many attractions of Port Elizabeth, South Africa when you stay at The Chapman Hotel. From stunning beaches to historical landmarks, there is something for everyone to enjoy.",
+    images: ["https://www.chapman.co.za/images/hobie_beach.jpg"]
+  },
+  viewport: "width=device-width, initial-scale=1.0"
+}
 
 
 const xata = new XataClient();

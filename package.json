@@ -24,7 +24,7 @@
     "eslint-config-next": "16.0.1",
     "framer-motion": "^7.10.3",
     "lucide-react": "^0.314.0",
-    "next": "^16.0.7",
+    "next": "16.0.10",
     "next-devtools-mcp": "^0.2.2",
     "react": "19.2.0",
     "react-dom": "19.2.0",
